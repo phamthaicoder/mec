@@ -1,43 +1,36 @@
 // Home Slide Header
-
-// var myCarousel = document.querySelector('#carouselExampleSlidesOnly')
-// var carousel = new bootstrap.Carousel(myCarousel, {
-//   interval: 5000
-// })
-
 const slideshowImages = document.querySelectorAll(".slideshow__image .slideshow__item");
 
 const nextImageDelay = 3000;
 let currentImageCounter = 0; // setting a variable to keep track of the current image (slide)
-
-// slideshowImages[currentImageCounter].style.display = "block";
 slideshowImages[currentImageCounter].style.opacity = 1;
 
 setInterval(nextImage, nextImageDelay);
 
 function nextImage() {
-  // slideshowImages[currentImageCounter].style.display = "none";
   slideshowImages[currentImageCounter].style.opacity = 0;
-
   currentImageCounter = (currentImageCounter+1) % slideshowImages.length;
-
-  // slideshowImages[currentImageCounter].style.display = "block";
   slideshowImages[currentImageCounter].style.opacity = 1;
 }
 
 
 // Change icon button
-document.getElementById("button__action").addEventListener("mouseover", mouseOver);
-document.getElementById("button__action").addEventListener("mouseout", mouseOut);
+var buttonActionAll = document.querySelectorAll('.button__action');
 
-function mouseOver() {
-  document.getElementById("button__image__action").src = "img/general/ph_arrow-right-white.svg";
-}
+buttonActionAll.forEach(buttonAction => {
 
-function mouseOut() {
-  document.getElementById("button__image__action").src = "img/general/ph_arrow-right.svg";
-}
+  buttonAction.addEventListener("mouseover", function () {
+    // buttonAction.querySelector("#button-prev").src = "img/general/ph_arrow-left-white.svg";
+    // buttonAction.querySelector("#button-next").src = "img/general/ph_arrow-right-white.svg";
+    buttonAction.querySelector("#button__image__action").src ="img/general/ph_arrow-right-white.svg";
+  });
 
+  buttonAction.addEventListener("mouseout", function () {
+    //  buttonAction.querySelector("#button-prev").src = "img/general/ph_arrow-left.svg";
+    //  buttonAction.querySelector("#button-next").src = "img/general/ph_arrow-right.svg";
+     buttonAction.querySelector("#button__image__action").src ="img/general/ph_arrow-right.svg";
+  });
+});
 
 
 // Home Slide Projects

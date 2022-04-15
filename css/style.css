@@ -144,6 +144,46 @@ html {
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05), 0px 8px 24px rgba(0, 0, 0, 0.1);
 }
 
+.offcanvas .offcanvas-header {
+  border-bottom: 1px solid #F1F2F5;
+}
+.offcanvas .offcanvas-body .navbar-nav.menu .nav-item {
+  margin: 15px 0;
+}
+.offcanvas .offcanvas-body .navbar-nav.menu .nav-item.dropdown {
+  position: relative;
+}
+.offcanvas .offcanvas-body .navbar-nav.menu .nav-item.dropdown .nav-link:hover {
+  border: none;
+}
+.offcanvas .offcanvas-body .navbar-nav.menu .nav-item.dropdown:hover .dropdown-menu {
+  border: none;
+  border-radius: unset;
+  box-shadow: none;
+}
+.offcanvas .offcanvas-body .navbar-nav.menu .nav-item.dropdown:hover .dropdown-menu .dropdown-item {
+  padding: 8px 8px;
+  font-size: 14px;
+}
+.offcanvas .offcanvas-body .navbar-nav.menu .nav-item .nav-link {
+  color: #5C6069;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0;
+  margin-top: 0;
+  box-sizing: border-box;
+  display: inline-block;
+  transition: unset;
+}
+.offcanvas .offcanvas-body .navbar-language {
+  display: flex;
+}
+.offcanvas .offcanvas-body .navbar-language .dropdown-menu {
+  border: none;
+  border-radius: unset;
+  box-shadow: none;
+}
+
 .offcanvas {
   display: none;
 }
@@ -430,9 +470,42 @@ html {
 }
 
 @media (max-width: 991.98px) {
-  .project__content > div {
+  #home .project__content > div {
     padding: 0 !important;
     margin-bottom: 10px;
+  }
+  #home #ss {
+    margin-top: 120px;
+  }
+  #home #ss .ss__content {
+    margin-top: 34px;
+  }
+  #home #ss .ss__content .ss__card {
+    position: relative;
+    margin-bottom: 100px;
+  }
+  #home #ss .ss__content .ss__card .card__image {
+    width: 100%;
+    height: 80%;
+  }
+  #home #ss .ss__content .ss__card .card__description {
+    position: unset;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+  }
+  #home #ss .ss__content .ss__card .card__description p {
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+    margin: 0;
+  }
+  #home #ss .ss__content .ss__card .card__description span {
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
   }
 }
 
