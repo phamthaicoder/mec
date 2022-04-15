@@ -1,0 +1,112 @@
+.navbar {
+    background-color: $color-white;
+    border-bottom: 1px solid #F1F2F5;
+    height: 80px;
+    .navbar-nav.menu {
+        .nav-item {
+            margin: 0 20px;
+
+            &.dropdown {
+                position: relative;
+                &::before {
+                    content: "";
+                    height: 30px;
+                    width: 100%;
+                    top: 24px;
+                    position: absolute;
+                }
+                .nav-link:hover {
+                    border: none;
+                }
+                &:hover {
+                    .dropdown-menu {
+                        display: block;
+                        top: 58px;
+                        left: -15px;
+                        border: none;
+                        border-radius: unset;
+                        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05), 0px 8px 24px rgba(0, 0, 0, 0.1);
+                    }
+                }
+            }
+            .nav-link {
+                color: $color-gray-bold;
+                font-size: 14px;
+                font-weight: 400;
+                padding: 5px 0;
+                margin-top: 2px;
+                border-bottom: 2px solid $color-white;
+                box-sizing:border-box;
+                display: inline-block;
+                transition: unset;
+                &:hover {
+                    border-bottom: 2px solid $color-primary;
+                    // transition: color 1s linear;
+                    font-weight: 600;
+                }
+            }
+        }
+        
+
+
+    }
+
+    .navbar-language {
+        .dropdown-menu {
+            // display: block;
+            top: 58px;
+            left: -15px;
+            border: none;
+            border-radius: unset;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05), 0px 8px 24px rgba(0, 0, 0, 0.1);
+        }
+    }
+}
+
+
+.offcanvas {
+    display: none;
+}
+
+// `xs` returns only a ruleset and no media query
+// ... { ... }
+
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    
+}
+
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    
+}
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    .navbar-nav.no-offcanvas {
+        display: none;
+    }
+
+    .offcanvas {
+        display: block;
+    }
+    .offcanvas.show {
+        width: 100%;
+    }
+    .offcanvas-end {
+        border: none;
+    }
+    .navbar-language {
+        display: none;
+    }
+}
+
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    
+}
+
+// `xxl` applies to x-large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+    
+}

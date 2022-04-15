@@ -1,0 +1,74 @@
+.zalo-cta {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    .cta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .zalo {
+            img {
+                width: 56px;
+                padding: 16px;
+                background: $color-blue;
+                border-radius: 50px;
+            }
+        }
+        .hotline {
+            color: #fff;
+            background-color: $color-primary;
+            padding: 4px 8px;
+            box-shadow: 0px 8px 24px rgb(0 0 0 / 10%), 0px 4px 16px rgb(0 0 0 / 10%);
+            border-radius: 48px;
+            font-weight: 400;
+            font-size: 12px;
+            margin-bottom: 8px;
+        }
+    }
+    .cta-hover {
+        display: none;
+        background: $color-blue;
+        box-shadow: 0px 12px 48px rgba(0, 0, 0, 0.1), 0px 16px 40px rgba(0, 0, 0, 0.1);
+        border-radius: 58px;
+        padding: 10px 12px;
+        .zalo-hover {
+            width: 40px;
+            background: $color-blue;
+            border-radius: 50px;
+        }
+        .contact {
+            text-align: right;
+            margin-right: 24px;
+            span {
+                text-align: right;
+                font-weight: normal;
+                font-size: 14px;
+                color: $color-white;
+            }
+            p {
+                margin: 0 0 0 20px;
+                a {
+                    color: $color-white;
+                    font-weight: 400;
+                    font-size: 24px;
+                    text-decoration: none;
+                }
+
+            }
+        }
+    }
+
+
+
+
+
+    &:hover {
+        .cta {
+            display: none
+        }
+
+        .cta-hover {
+            display: flex;
+        }
+    }
+}

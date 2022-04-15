@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+@font-face {
+    font-family: 'SVN-Poppins';
+    src:    
+        url('../font/SVN-Poppins/SVN-Poppins-Regular.otf'),
+        url('../font/SVN-Poppins/SVN-Poppins-Italic.otf'),
+        url('../font/SVN-Poppins/SVN-Poppins-Medium.otf'),
+        url('../font/SVN-Poppins/SVN-Poppins-Black.otf'),
+        url('../font/SVN-Poppins/SVN-Poppins-SemiBold.otf'),
+        url('../font//SVN-Poppins/OTF/SVN-Poppins-Black.otf') format('embedded-opentype'),
+        url('../font//SVN-Poppins/OTF/SVN-Poppins-BlackItalic.otf') format('embedded-opentype'),
+        url('../font//SVN-Poppins/OTF/SVN-Poppins-Bold.otf') format('embedded-opentype'),
+        url('../font//SVN-Poppins/OTF/SVN-Poppins-BoldItalic.otf') format('embedded-opentype'),
+        url('../font//SVN-Poppins/OTF/SVN-Poppins-ExtraBold.otf') format('embedded-opentype'),
+        url('../font//SVN-Poppins/OTF/SVN-Poppins-ExtraBoldItalic.otf') format('embedded-opentype'),
+        url('../font//SVN-Poppins/OTF/SVN-Poppins-ExtraLight.otf') format('embedded-opentype'),
+        url('../font//SVN-Poppins/OTF/SVN-Poppins-ExtraLightItalic.otf') format('embedded-opentype'),
+        url('../font//SVN-Poppins/OTF/SVN-Poppins-Italic.otf') format('embedded-opentype'),
+        url('../font//SVN-Poppins/OTF/SVN-Poppins-Light.otf') format('embedded-opentype'),
+        url('../font//SVN-Poppins/OTF/SVN-Poppins-LightItalic.otf') format('embedded-opentype'),
+        url('../font//SVN-Poppins/OTF/SVN-Poppins-Medium.otf') format('embedded-opentype'),
+        url('../font//SVN-Poppins/OTF/SVN-Poppins-MediumItalic.otf') format('embedded-opentype'),
+        url('../font//SVN-Poppins/OTF/SVN-Poppins-Regular.otf') format('embedded-opentype'),
+        url('../font//SVN-Poppins/OTF/SVN-Poppins-SemiBold.otf') format('embedded-opentype'),
+        url('../font//SVN-Poppins/OTF/SVN-Poppins-SemiBoldItalic.otf') format('embedded-opentype'),
+        url('../font//SVN-Poppins/OTF/SVN-Poppins-Thin.otf') format('embedded-opentype'),
+        url('../font//SVN-Poppins/OTF/SVN-Poppins-ThinItalic.otf') format('embedded-opentype'),
+        url('../font//SVN-Poppins/TTF/SVN-Poppins-Italic.ttf') format('truetype'),
+        url('../font//SVN-Poppins/TTF/SVN-Poppins-Medium.ttf') format('truetype'),
+        url('../font//SVN-Poppins/TTF/SVN-Poppins-Regular.ttf') format('truetype'),
+        url('../font//SVN-Poppins/TTF/SVN-Poppins-SemiBold.ttf') format('truetype');
+  }
+
+* {
+    font-family: 'SVN-Poppins';
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 600;
+    color: $color-primary;
+    margin: 8px 0;
+    display: block;
+}
+
+.description {
+    font-size: 32px;
+    font-weight: 600;
+    color: $color-black;
+    margin: 8px 0;
+    display: block;
+}
