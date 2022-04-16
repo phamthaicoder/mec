@@ -25,11 +25,45 @@
             font-weight: 400;
         }
     }
-      
-    //   @media (max-width: 700px) {
-    //     html { font-size: 12px; }
-    //     .intro-header { padding: 1.5rem 2rem; }
-    //     .intro h1 { font-size: 2.5rem; }
-    //     .intro p { font-size: 1.25rem; }
-    //   }
   }
+
+  // `xs` returns only a ruleset and no media query
+// ... { ... }
+
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    
+}
+
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    
+}
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    .slider {
+        .slideshow__content {
+            margin-top: 90px;
+            p {
+                font-size: 30px;
+                font-weight: 600;
+                margin: 8px 0px;
+            }
+            span {
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+      }
+}
+
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    
+}
+
+// `xxl` applies to x-large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+    
+}

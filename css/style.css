@@ -291,6 +291,20 @@ html {
   font-weight: 400;
 }
 
+@media (max-width: 991.98px) {
+  .slider .slideshow__content {
+    margin-top: 90px;
+  }
+  .slider .slideshow__content p {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 8px 0px;
+  }
+  .slider .slideshow__content span {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
 #button__action:hover {
   background-color: #ED1C24;
   color: #fff !important;
