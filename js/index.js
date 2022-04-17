@@ -20,16 +20,30 @@ var buttonActionAll = document.querySelectorAll('.button__action');
 buttonActionAll.forEach(buttonAction => {
 
   buttonAction.addEventListener("mouseover", function () {
-    // buttonAction.querySelector("#button-prev").src = "img/general/ph_arrow-left-white.svg";
-    // buttonAction.querySelector("#button-next").src = "img/general/ph_arrow-right-white.svg";
-    buttonAction.querySelector("#button__image__action").src ="img/general/ph_arrow-right-white.svg";
+     buttonAction.querySelector(".button__image__action").src ="img/general/ph_arrow-right-white.svg";
+  });
+  
+  buttonAction.addEventListener("mouseout", function () {
+    buttonAction.querySelector(".button__image__action").src ="img/general/ph_arrow-right.svg";
+  });
+
+  buttonAction.addEventListener("mouseover", function () {
+    buttonAction.querySelector(".button-prev").src = "img/general/ph_arrow-left-white.svg";
   });
 
   buttonAction.addEventListener("mouseout", function () {
-    //  buttonAction.querySelector("#button-prev").src = "img/general/ph_arrow-left.svg";
-    //  buttonAction.querySelector("#button-next").src = "img/general/ph_arrow-right.svg";
-     buttonAction.querySelector("#button__image__action").src ="img/general/ph_arrow-right.svg";
+    buttonAction.querySelector(".button-prev").src = "img/general/ph_arrow-left.svg";
   });
+
+  buttonAction.addEventListener("mouseover", function () {
+    buttonAction.querySelector(".button-next").src = "img/general/ph_arrow-right-white.svg";
+  });
+
+  buttonAction.addEventListener("mouseout", function () {
+    buttonAction.querySelector(".button-next").src = "img/general/ph_arrow-right.svg";
+  });
+
+
 });
 
 
