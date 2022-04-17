@@ -313,7 +313,7 @@ html {
     font-weight: 400;
   }
 }
-#button__action:hover {
+.button__action:hover {
   background-color: #ED1C24;
   color: #fff !important;
 }
@@ -368,6 +368,11 @@ html {
   overflow: hidden;
   display: -webkit-box;
 }
+#home #project .project__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 #home #project .project__btn {
   border: 1px solid #ED1C24;
   text-decoration: none;
@@ -407,6 +412,12 @@ html {
 }
 #home #project .project__slideshow .project__content .content__description .description__action {
   margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#home #project .project__slideshow .project__content .content__description .description__action.responsive {
+  display: none;
 }
 #home #project .project__slideshow .project__content .content__description .description__action .description__number {
   padding: 8px 12px;
@@ -449,6 +460,9 @@ html {
 }
 #home #project .project__slideshow .project__content .content__description .description__infor .infor__service {
   margin-bottom: 24px;
+}
+#home #project .project__slideshow .project__content .content__description .description__infor .project__btn.responsive {
+  display: none;
 }
 #home #product .product__title {
   margin-bottom: 64px;
@@ -494,9 +508,34 @@ html {
 }
 
 @media (max-width: 991.98px) {
-  #home .project__content > div {
+  #home #project .project__header {
+    display: block;
+  }
+  #home #project .project__header .project__title {
+    text-align: center;
+  }
+  #home #project .project__header .project__btn {
+    display: none;
+  }
+  #home #project .project__slideshow .project__content > div {
     padding: 0 !important;
     margin-bottom: 10px;
+  }
+  #home #project .project__slideshow .project__content .content__description .description__action {
+    display: none;
+  }
+  #home #project .project__slideshow .project__content .content__description .description__action.responsive {
+    display: block;
+    margin: 12px 0 40px 0;
+  }
+  #home #project .project__slideshow .project__content .content__description .description__action.responsive .description__image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #home #project .project__slideshow .project__content .content__description .description__infor .project__btn.responsive {
+    display: block;
+    width: fit-content;
   }
   #home #ss {
     margin-top: 120px;
