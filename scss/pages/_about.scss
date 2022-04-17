@@ -1,0 +1,94 @@
+#about {
+    .about__content {
+        margin-top: 380px;
+        .about__item {
+            margin-bottom: 120px;
+            .about__text {
+                align-items: flex-start;
+                .about__title {
+                    .title {
+                        color: $color-primary;
+                        font-size: 14px;
+                        font-weight: 400;
+                        margin: 0;
+                    }
+                    .description {
+                        font-size: 32px;
+                        font-weight: 600;
+                        color: $color-black;
+                        margin: 8px 0;
+                    }
+                }
+                .about__list {
+                    list-style-type: none;
+                    padding: 0;
+                    margin: 40px 0;
+                    .about__list__item {
+                        display: flex;
+                        align-items: flex-start;
+                        margin: 24px 0;
+                        p {
+                            margin: 0;
+                            font-size: 16px;
+                            font-weight: 400;
+                            color: $color-black;
+                            margin: 0 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// `xs` returns only a ruleset and no media query
+// ... { ... }
+
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    
+}
+
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    #about {
+        .about__content {
+            margin-top: 220px;
+        }
+    }
+}
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    #about {
+        .about__content {
+            margin-top: 200px;
+        }
+    }
+}
+
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    #about {
+        .about__content {
+            margin-top: 240px;
+        }
+    }
+}
+
+// `xxl` applies to x-large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+    #about {
+        .about__content {
+            margin-top: 280px;
+        }
+    }
+}
+
+@media (max-width: 1599.98px) {
+    #about {
+        .about__content {
+            margin-top: 300px;
+        }
+    }
+}

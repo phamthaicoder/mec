@@ -1,15 +1,449 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MEC</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <!-- <link rel="manifest" href="img/favicon/site.webmanifest"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
 
-    
-    <link rel="stylesheet" href="./main.js">
+<body>
+    <div id="about">
+        <header id="header">
+            <div id="about__header" class="fixed-top">
+                <div id="about__banner" class="about__banner">
+                    <img class="w-100" src="img/general/banner-layout.png" alt="">
+                </div>
+                <nav class="navbar navbar-light navbar-expand-lg">
+                    <div class="container">
+                        <a class="navbar-brand" href="/">
+                            <img src="img/general/logo.svg" loading="lazy" alt="MEC logo" />
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <ul class="navbar-nav menu no-offcanvas">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="/">TRANG CHỦ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/about.html">VỀ MEC</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#">
+                                    SẢN PHẨM
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Cáp quang SM, MM</a></li>
+                                    <li><a class="dropdown-item" href="#">Thiết bị cáp quang</a></li>
+                                    <li><a class="dropdown-item" href="#">Các thiết bị của Cisco</a></li>
+                                    <li><a class="dropdown-item" href="#">Tủ mạng</a></li>
+                                    <li><a class="dropdown-item" href="#">Cân bằng tải</a></li>
+                                    <li><a class="dropdown-item" href="#">Cáp đồng trần</a></li>
+                                    <li><a class="dropdown-item" href="#">Camera giám sát</a></li>
+                                    <li><a class="dropdown-item" href="#">Dây nhảy quang</a></li>
+                                    <li>
+                                        <a class="dropdown-item" style="color: #ED1C24" href="#">Xem thêm 1.000+ sản phẩm
+                                            khác
+                                            <img style="width: 16px;" src="img/general/ph_caret-right-primary.svg" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#">
+                                    GIẢI PHÁP
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <a class="dropdown-item" href="#">Tư vấn & Khảo sát miễn phí 24/7</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Thi công & lắp đặt hạ tầng mạng và
+                                            IOT
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Thiết kế hệ thống điện cho nhà máy &
+                                            tòa nhà
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Giải pháp camera giám sát & hệ thống
+                                            máy chủ
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#">
+                                    DỊCH VỤ
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <a class="dropdown-item" href="#">Tư vấn & Khảo sát miễn phí 24/7</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Thi công & lắp đặt hạ tầng mạng và
+                                            IOT
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Thiết kế hệ thống điện cho nhà máy &
+                                            tòa nhà
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Giải pháp camera giám sát & hệ thống
+                                            máy chủ
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/project.html">DỰ ÁN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contact.html">LIÊN HỆ</a>
+                            </li>
+                        </ul>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                            aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                                <a class="navbar-brand" href="/">
+                                    <img src="img/general/logo.svg" loading="lazy" alt="MEC logo" />
+                                </a>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body justify-content-center">
+                                <ul class="navbar-nav menu">
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="/">TRANG CHỦ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/about.html">VỀ MEC</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link d-flex justify-content-between" href="#">
+                                            SẢN PHẨM
+                                            <img src="img/general/ph_caret-right.svg" style="width: 16px"
+                                                alt="Icon caret right">
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Cáp quang SM, MM</a></li>
+                                            <li><a class="dropdown-item" href="#">Thiết bị cáp quang</a></li>
+                                            <li><a class="dropdown-item" href="#">Các thiết bị của Cisco</a></li>
+                                            <li><a class="dropdown-item" href="#">Tủ mạng</a></li>
+                                            <li><a class="dropdown-item" href="#">Cân bằng tải</a></li>
+                                            <li><a class="dropdown-item" href="#">Cáp đồng trần</a></li>
+                                            <li><a class="dropdown-item" href="#">Camera giám sát</a></li>
+                                            <li><a class="dropdown-item" href="#">Dây nhảy quang</a></li>
+                                            <li>
+                                                <a class="dropdown-item" style="color: #ED1C24" href="#">Xem thêm 1.000+ sản
+                                                    phẩm khác
+                                                    <img style="width: 16px;" src="img/general/ph_caret-right-primary.svg"
+                                                        alt="">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link d-flex justify-content-between" href="#">
+                                            GIẢI PHÁP
+                                            <img src="img/general/ph_caret-right.svg" style="width: 16px"
+                                                alt="Icon caret right">
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Tư vấn & Khảo sát miễn phí 24/7</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Thi công & lắp đặt hạ tầng mạng và
+                                                    IOT</a></li>
+                                            <li><a class="dropdown-item" href="#">Thiết kế hệ thống điện cho nhà máy &
+                                                    tòa nhà</a></li>
+                                            <li><a class="dropdown-item" href="#">Giải pháp camera giám sát & hệ thống
+                                                    máy chủ</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link d-flex justify-content-between" href="#">
+                                            DỊCH VỤ
+                                            <img src="img/general/ph_caret-right.svg" style="width: 16px"
+                                                alt="Icon caret right">
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Tư vấn & Khảo sát miễn phí 24/7</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Thi công & lắp đặt hạ tầng mạng và
+                                                    IOT</a></li>
+                                            <li><a class="dropdown-item" href="#">Thiết kế hệ thống điện cho nhà máy &
+                                                    tòa nhà</a></li>
+                                            <li><a class="dropdown-item" href="#">Giải pháp camera giám sát & hệ thống
+                                                    máy chủ</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/project.html">DỰ ÁN</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/contact.html">LIÊN HỆ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <ul class="navbar-language navbar-nav navbar-nav-scroll justify-content-end align-items-center">
+                            <div>
+                                <img src="img/general/ico-vietnam.svg" alt="" style="width: 16px;">
+                            </div>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarScrollingDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span style="font-size: 12px; color: #0C1323">VN</span>
+                                    <img src="img/general/ph_caret-down.svg" alt="" style="width: 12px;">
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+
+        </header>
+
+        <section id="about__content" class="about__content">
+            <div class="container">
+                <div class="row about__item">
+                    <div class="col-md-6 about__text">
+                        <div class="about__title">
+                            <p class="title">We Started</p>
+                            <p class="description">Quá trình hình thành & Phát triển</p>
+                        </div>
+                        <p>Với nhiều năm kinh nghiệm trong lĩnh vực CNTT, I.P.L nhận thấy sự phát triển của công nghệ thay đổi từng ngày và hầu như mọi hoạt động từ giao thông, sản xuất, giáo dục, y tế, an ninh… đều đang áp dụng công nghệ để tăng trưởng trong ngành, trong khi đó còn nhiều doanh nghiệp, cơ quan vẫn chưa chú trọng vào đầu tư xây dựng cơ sở hạ tầng chất lượng để ứng dụng công nghệ mới.</p>
+                        <ul class="about__list">
+                            <li class="about__list__item">
+                                <img src="img/general/ph_flag-checkered-red.svg" alt="">
+                                <p>Thành lập MEC với tiền đề hợp nhất bởi 2 công ty cơ điện: DHL., jsc và MEC., jsc</p>
+                            </li>
+                            <li class="about__list__item">
+                                <img src="img/general/ph_flag-red.svg" alt="">
+                                <p>Đối tác chiến lược toàn điện với China Telecom</p>
+                            </li>
+                            <li class="about__list__item">
+                                <img src="img/general/ph_flag-red.svg" alt="">
+                                <p>Mở chi nhánh văn phòng tp.HCM và phát triển đến nay</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 about__image">
+                        <img src="img/about/about-1.svg" alt="">
+                    </div>
+                </div>
+                <div class="row about__item">
+                    <div class="col-md-6 about__image">
+                        <img src="img/about/about-2.svg" alt="">
+                    </div>
+                    <div class="col-md-6 about__text">
+                        <div class="about__title">
+                            <p class="title">Our core values</p>
+                            <p class="description">Giá trị cốt lõi</p>
+                        </div>
+                        <p>Cung cấp các sản phẩm, dịch vụ chất lượng, sáng tạo, tạo bền vững cho khách hàng, thị trường với mong muốn được cùng đóng góp gặt hái thành công.</p>
+                        <ul class="about__list">
+                            <li class="about__list__item">
+                                <img src="img/general/ph_trend-up-red.svg" alt="">
+                                <p>Trở thành đơn vị thi công hạ tầng mạng và cơ điện top 10 Việt Nam</p>
+                            </li>
+                            <li class="about__list__item">
+                                <img src="img/general/ph_trend-up-red.svg" alt="">
+                                <p>Phủ sóng khắp 3 miền của tổ quốc: Miền Bắc, Miền Trung và Miền Nam</p>
+                            </li>
+                            <li class="about__list__item">
+                                <img src="img/general/ph_trend-up-red.svg" alt="">
+                                <p>Phân phối hệ thống sản phẩm chính hãng hàng đầu</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row about__item">
+                    <div class="col-md-6 about__text">
+                        <div class="about__title">
+                            <p class="title">Our Vision</p>
+                            <p class="description">Tầm nhìn & Sứ mệnh</p>
+                        </div>
+                        <p>Cung cấp các sản phẩm, dịch vụ chất lượng, sáng tạo, tạo bền vững cho khách hàng, thị trường với mong muốn được cùng đóng góp gặt hái thành công.</p>
+                        <ul class="about__list">
+                            <li class="about__list__item">
+                                <img src="img/general/ph_trend-up-red.svg" alt="">
+                                <p>Trở thành đơn vị thi công hạ tầng mạng và cơ điện top 10 Việt Nam</p>
+                            </li>
+                            <li class="about__list__item">
+                                <img src="img/general/ph_trend-up-red.svg" alt="">
+                                <p>Phủ sóng khắp 3 miền của tổ quốc: Miền Bắc, Miền Trung và Miền Nam</p>
+                            </li>
+                            <li class="about__list__item">
+                                <img src="img/general/ph_trend-up-red.svg" alt="">
+                                <p>Phân phối hệ thống sản phẩm chính hãng hàng đầu</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 about__image">
+                        <img src="img/about/about-3.svg" alt="">
+                    </div>
+                </div>
+                <div class="row about__item">
+                    <div class="col-md-6 about__text">
+                       <p>Khám phá MEC qua hồ sơ năng lực</p>
+                    </div>
+                    <div class="col-md-6 about__image">
+                        <div>
+                            <p>Tải về hồ sơ năng lực</p>
+                            <img src="img/general/ph_cloud-arrow-down.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <div class="container p-4">
+                <section class="">
+                    <div class="row footer__content">
+                        <div class="footer__column col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <div>
+                                <p class="footer__title">
+                                    Công ty cổ phần cơ điện MEC
+                                </p>
+                                <div class="footer__infor d-flex align-items-start">
+                                    <img class="infor__image" src="img/general/ph_buildings-white.svg" alt="">
+                                    <div class="infor">
+                                        <p class="infor__name">Trụ sở chính</p>
+                                        <p class="infor__address">12A, 112 Tây Mỗ, Nam Từ Liêm, Hà Nội</p>
+                                        <p class="infor__phone">(+84) 243 888 999</p>
+                                    </div>
+                                </div>
+                                <div class="footer__infor d-flex align-items-start">
+                                    <img class="infor__image" src="img/general/ph_git-branch-white.svg" alt="">
+                                    <div class="infor">
+                                        <p class="infor__name">Chi nhánh Tp. HCM</p>
+                                        <p class="infor__address">404B, Tòa nhà Grinplex, Q.4, Tp.HCM</p>
+                                        <p class="infor__phone">(+84) 243 888 777</p>
+                                    </div>
+                                </div>
+                                <div class="footer__infor d-flex align-items-start">
+                                    <img class="infor__image" src="img/general/ph_envelope-simple-white.svg" alt="">
+                                    <div class="infor">
+                                        <p class="infor__name m-0">contact@mecgroup.vn</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__column col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <div>
+                                <p class="footer__title">
+                                    Về chúng tôi
+                                </p>
+                                <div class="footer__item">
+                                    <a href="/about.html" class="text-reset">Giới thiệu về MEC</a>
+                                </div>
+                                <div class="footer__item">
+                                    <a href="#" class="text-reset">Sản phẩm</a>
+                                </div>
+                                <div class="footer__item">
+                                    <a href="/service.html" class="text-reset">Giải pháp & dịch vụ</a>
+                                </div>
+                                <div class="footer__item">
+                                    <a href="/project.html" class="text-reset">Dự án</a>
+                                </div>
+                                <div class="footer__item">
+                                    <a href="/contact.html" class="text-reset">Liên hệ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__column col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <div>
+                                <p class="footer__title">
+                                    Thiết bị mạng
+                                </p>
+                                <div class="footer__item">
+                                    <a href="#!" class="text-reset">Cáp quang</a>
+                                </div>
+                                <div class="footer__item">
+                                    <a href="#!" class="text-reset">Thiết bị Cisco</a>
+                                </div>
+                                <div class="footer__item">
+                                    <a href="#!" class="text-reset">Camera giám sát</a>
+                                </div>
+                                <div class="footer__item">
+                                    <a href="#!" class="text-reset">Cáp đồng trần</a>
+                                </div>
+                                <div class="footer__item">
+                                    <a href="#!" class="text-reset">Dây nhảy quang</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__column col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <div>
+                                <p class="footer__title">
+                                    Thiết bị cơ điện
+                                </p>
+                                <div class="footer__item">
+                                    <a href="#!" class="text-reset">Cân bằng tải</a>
+                                </div>
+                                <div class="footer__item">
+                                    <a href="#!" class="text-reset">Tủ mạng</a>
+                                </div>
+                                <div class="footer__item">
+                                    <a href="#!" class="text-reset">Dây cáp đồng</a>
+                                </div>
+                                <div class="footer__item">
+                                    <a href="#!" class="text-reset">Tủ Rack</a>
+                                </div>
+                                <div class="footer__item">
+                                    <a href="#!" class="text-reset">Bộ chuyển đổi</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__copyright col-md-12 col-lg-12 col-xl-12">
+                            <p>© Bản quyền bởi Công ty cổ phần cơ điện MEC 2022</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </footer>
+        <div class="zalo-cta">
+            <div class="cta">
+                <div class="hotline">HOTLINE</div>
+                <div class="zalo">
+                    <img src="img/general/ico-zalo-cta.svg" alt="">
+                </div>
+            </div>
+            <div class="cta-hover">
+                <div class="contact">
+                    <span>Tư vấn miễn phí</span>
+                    <p><a href="tel:+84981997269"> 098.1997.269</a></p>
+                </div>
+                <img class="zalo-hover" src="img/general/ico-zalo-cta.svg" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script defer src="js/about.js"></script>
 </body>
+
 </html>
