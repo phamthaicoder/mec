@@ -609,6 +609,46 @@ html {
   color: #0C1323;
   margin: 0 12px;
 }
+#about .about__content .about__item .about__image img {
+  width: 100%;
+}
+#about .about__content .about__action {
+  margin-bottom: 120px;
+  background-color: #ED1C24;
+  padding: 42px 56px;
+  align-items: center;
+}
+#about .about__content .about__action .about__text p {
+  margin: 0;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 600;
+}
+#about .about__content .about__action .about__image {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#about .about__content .about__action .about__image .button__action {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1px solid #fff;
+  padding: 16px 24.5px;
+  background-color: unset;
+}
+#about .about__content .about__action .about__image .button__action p {
+  margin: 0 12.5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+#about .about__content .about__action .about__image .button__action:hover {
+  background-color: #fff;
+}
+#about .about__content .about__action .about__image .button__action:hover p {
+  color: #ED1C24;
+}
 
 @media (max-width: 767.98px) {
   #about .about__content {
