@@ -37,6 +37,51 @@
                     }
                 }
             }
+            .about__image {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        .about__action {
+            margin-bottom: 120px;
+            background-color: $color-primary;
+            padding: 42px 56px;
+            align-items: center;
+            .about__text {
+                p {
+                    margin: 0;
+                    color: $color-white;
+                    font-size: 28px;
+                    font-weight: 600;
+                }
+            }
+            
+            .about__image {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                .button__action {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    border: 1px solid $color-white;
+                    padding: 16px 24.5px;
+                    background-color: unset;
+                    p {
+                        margin: 0 12.5px;
+                        color: $color-white;
+                        font-size: 16px;
+                        font-weight: 600;
+                    }
+                    &:hover {
+                        background-color: $color-white;
+                        p {
+                            color: $color-primary;
+                        }
+                    }
+                }
+            }
         }
     }
 }
