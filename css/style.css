@@ -656,8 +656,21 @@ html {
   }
 }
 @media (max-width: 991.98px) {
-  #about .about__content {
-    margin-top: 200px;
+  #about .about__content .about__item {
+    margin-bottom: 80px;
+  }
+  #about .about__content .about__item .about__text .about__title {
+    text-align: center;
+  }
+  #about .about__content .about__item:nth-child(2) .about__text {
+    order: -1;
+  }
+  #about .about__content .about__action .about__text {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  #about .about__content .about__action .about__image {
+    justify-content: center;
   }
 }
 @media (max-width: 1199.98px) {
