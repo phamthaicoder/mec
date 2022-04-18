@@ -1,13 +1,12 @@
-// Change icon button
-var buttonActionAll = document.querySelectorAll('.button__action');
+// Change icon button about
+var buttonAboutActionAll = document.querySelectorAll('.button__action');
 
-buttonActionAll.forEach(buttonAction => {
-
-    buttonAction.addEventListener("mouseover", function () {
-        buttonAction.querySelector(".button__image__action").src ="img/general/ph_cloud-arrow-down-red.svg";
+buttonAboutActionAll.forEach(buttonAboutAction => {
+  buttonAboutAction.addEventListener("mouseover", function () {
+    buttonAboutAction.querySelector(".button__image__action").src ="img/general/ph_cloud-arrow-down-red.svg";
   });
   
-  buttonAction.addEventListener("mouseout", function () {
-    buttonAction.querySelector(".button__image__action").src ="img/general/ph_cloud-arrow-down-white.svg";
+  buttonAboutAction.addEventListener("mouseout", function () {
+    buttonAboutAction.querySelector(".button__image__action").src ="img/general/ph_cloud-arrow-down-white.svg";
   });
 });

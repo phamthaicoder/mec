@@ -15,35 +15,35 @@ function nextImage() {
 
 
 // Change icon button
-var buttonActionAll = document.querySelectorAll('.button__action');
+var buttonHomeActionAll = document.querySelectorAll('.button__action');
 
-buttonActionAll.forEach(buttonAction => {
+buttonHomeActionAll.forEach(buttonHomeAction => {
 
-  buttonAction.addEventListener("mouseover", function () {
-     buttonAction.querySelector(".button__image__action").src ="img/general/ph_arrow-right-white.svg";
+  buttonHomeAction.addEventListener("mouseover", function () {
+     buttonHomeAction.querySelector(".button__image__action").src ="img/general/ph_arrow-right-white.svg";
   });
   
-  buttonAction.addEventListener("mouseout", function () {
-    buttonAction.querySelector(".button__image__action").src ="img/general/ph_arrow-right.svg";
+  buttonHomeAction.addEventListener("mouseout", function () {
+    buttonHomeAction.querySelector(".button__image__action").src ="img/general/ph_arrow-right.svg";
   });
 
-  buttonAction.addEventListener("mouseover", function () {
-    buttonAction.querySelector(".button-prev").src = "img/general/ph_arrow-left-white.svg";
+  buttonHomeAction.addEventListener("mouseover", function () {
+    buttonHomeAction.querySelector(".button-prev").src = "img/general/ph_arrow-left-white.svg";
   });
 
-  buttonAction.addEventListener("mouseout", function () {
-    buttonAction.querySelector(".button-prev").src = "img/general/ph_arrow-left.svg";
+  buttonHomeAction.addEventListener("mouseout", function () {
+    buttonHomeAction.querySelector(".button-prev").src = "img/general/ph_arrow-left.svg";
   });
 
-  buttonAction.addEventListener("mouseover", function () {
-    buttonAction.querySelector(".button-next").src = "img/general/ph_arrow-right-white.svg";
+  buttonHomeAction.addEventListener("mouseover", function () {
+    buttonHomeAction.querySelector(".button-next").src = "img/general/ph_arrow-right-white.svg";
   });
 
-  buttonAction.addEventListener("mouseout", function () {
-    buttonAction.querySelector(".button-next").src = "img/general/ph_arrow-right.svg";
+  buttonHomeAction.addEventListener("mouseout", function () {
+    buttonHomeAction.querySelector(".button-next").src = "img/general/ph_arrow-right.svg";
   });
 
-
+  
 });
 
 
@@ -76,4 +76,3 @@ function showSlides(n) {
   // dots[slideIndex-1].className += " active";
 }
 
-//Banner
