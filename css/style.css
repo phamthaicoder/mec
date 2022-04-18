@@ -74,6 +74,7 @@ html {
 }
 * {
   font-family: "SVN-Poppins";
+  color: #0C1323;
 }
 
 .title {
@@ -105,7 +106,7 @@ html {
 }
 .navbar .navbar-nav.menu .nav-item.dropdown::before {
   content: "";
-  height: 30px;
+  height: 35px;
   width: 100%;
   top: 24px;
   position: absolute;
@@ -218,8 +219,10 @@ html {
   font-size: 10px;
   font-weight: 400;
   opacity: 0.7;
+  color: #fff;
 }
 #footer .footer__content .footer__title {
+  color: #fff;
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 34px;
@@ -233,11 +236,13 @@ html {
 #footer .footer__content .footer__infor .infor .infor__name {
   font-size: 14px;
   font-weight: 400;
+  color: #fff;
 }
 #footer .footer__content .footer__infor .infor .infor__address, #footer .footer__content .footer__infor .infor .infor__phone {
   font-size: 14px;
   font-weight: 400;
   opacity: 0.7;
+  color: #fff;
 }
 #footer .footer__content .footer__infor .infor .infor__phone {
   margin: 0;
@@ -249,6 +254,7 @@ html {
   text-decoration: none;
   font-size: 14px;
   font-weight: 400;
+  color: #fff;
 }
 #footer .footer__content .footer__item:hover {
   color: #ED1C24;
@@ -687,6 +693,81 @@ html {
   #about .about__content {
     margin-top: 300px;
   }
+}
+#project .project__content {
+  margin-top: 380px;
+}
+#project .project__content .project__title {
+  text-align: center;
+}
+#project .project__content .project__title p {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 64px 0px;
+}
+#project .project__content .project__item .project__card {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+#project .project__content .project__item .project__card .card__body .card__name {
+  margin: 24px 0 12px 0;
+  font-size: 24px;
+  font-weight: 400;
+  color: #0C1323;
+}
+#project .project__content .project__item .project__card .card__body .card__description {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+#project .project__content .project__item .project__card .card__body .card__description p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #5C6069;
+}
+#project .project__content .project__item .project__card .card__body .card__description img {
+  width: 16px;
+  height: 16px;
+  margin-right: 9.5px;
+}
+#project .project__content .project__action {
+  margin-bottom: 120px;
+  background-color: #ED1C24;
+  padding: 42px 56px;
+  align-items: center;
+}
+#project .project__content .project__action .project__text p {
+  margin: 0;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 600;
+}
+#project .project__content .project__action .project__image {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#project .project__content .project__action .project__image .button__action {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1px solid #fff;
+  padding: 16px 24.5px;
+  background-color: unset;
+}
+#project .project__content .project__action .project__image .button__action p {
+  margin: 0 12.5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+#project .project__content .project__action .project__image .button__action:hover {
+  background-color: #fff;
+}
+#project .project__content .project__action .project__image .button__action:hover p {
+  color: #ED1C24;
 }
 
 /*# sourceMappingURL=style.css.map */

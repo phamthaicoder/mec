@@ -1,0 +1,121 @@
+#project {
+    .project__content {
+        margin-top: 380px;
+        .project__title {
+            text-align: center;
+            p {
+                font-size: 32px;
+                font-weight: 600;
+                margin: 64px 0px;
+            }
+        }
+        .project__item {
+            .project__card {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 80px;
+                .card__img {
+                    img {
+                    }
+                }
+                .card__body {
+                    .card__name {
+                        margin: 24px 0 12px 0;
+                        font-size: 24px;
+                        font-weight: 400;
+                        color: $color-black;
+                    }
+                    .card__description {
+                        display: flex;
+                        // justify-content: center;
+                        align-items: center;
+                        margin-bottom: 4px;
+                        p {
+                            margin: 0;
+                            font-size: 14px;
+                            font-weight: 400;
+                            color: $color-gray-bold;
+                        }
+                        img {
+                            width: 16px;
+                            height: 16px;
+                            margin-right: 9.5px;
+                        }
+                    }
+                }
+            }
+        }
+        .project__action {
+            margin-bottom: 120px;
+            background-color: $color-primary;
+            padding: 42px 56px;
+            align-items: center;
+            .project__text {
+                p {
+                    margin: 0;
+                    color: $color-white;
+                    font-size: 28px;
+                    font-weight: 600;
+                }
+            }
+            
+            .project__image {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                .button__action {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    border: 1px solid $color-white;
+                    padding: 16px 24.5px;
+                    background-color: unset;
+                    p {
+                        margin: 0 12.5px;
+                        color: $color-white;
+                        font-size: 16px;
+                        font-weight: 600;
+                    }
+                    &:hover {
+                        background-color: $color-white;
+                        p {
+                            color: $color-primary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// `xs` returns only a ruleset and no media query
+// ... { ... }
+
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    
+}
+
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+
+}
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+
+}
+
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+
+}
+
+// `xxl` applies to x-large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+
+}
+
+@media (max-width: 1599.98px) {
+
+}
