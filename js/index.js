@@ -19,31 +19,35 @@ var buttonHomeActionAll = document.querySelectorAll('.button__action');
 
 buttonHomeActionAll.forEach(buttonHomeAction => {
 
-  buttonHomeAction.addEventListener("mouseover", function () {
-     buttonHomeAction.querySelector(".button__image__action").src ="img/general/ph_arrow-right-white.svg";
-  });
+  if(buttonHomeAction.querySelector(".button__image__action") != null) {
+    buttonHomeAction.addEventListener("mouseover", function () {
+      buttonHomeAction.querySelector(".button__image__action").src ="img/general/ph_arrow-right-white.svg";
+   });
+   
+   buttonHomeAction.addEventListener("mouseout", function () {
+     buttonHomeAction.querySelector(".button__image__action").src ="img/general/ph_arrow-right.svg";
+   });
+  }
+
+  if(buttonHomeAction.querySelector(".button-prev") != null) {
+    buttonHomeAction.addEventListener("mouseover", function () {
+      buttonHomeAction.querySelector(".button-prev").src = "img/general/ph_arrow-left-white.svg";
+    });
   
-  buttonHomeAction.addEventListener("mouseout", function () {
-    buttonHomeAction.querySelector(".button__image__action").src ="img/general/ph_arrow-right.svg";
-  });
+    buttonHomeAction.addEventListener("mouseout", function () {
+      buttonHomeAction.querySelector(".button-prev").src = "img/general/ph_arrow-left.svg";
+    });
+  }
 
-  buttonHomeAction.addEventListener("mouseover", function () {
-    buttonHomeAction.querySelector(".button-prev").src = "img/general/ph_arrow-left-white.svg";
-  });
-
-  buttonHomeAction.addEventListener("mouseout", function () {
-    buttonHomeAction.querySelector(".button-prev").src = "img/general/ph_arrow-left.svg";
-  });
-
-  buttonHomeAction.addEventListener("mouseover", function () {
-    buttonHomeAction.querySelector(".button-next").src = "img/general/ph_arrow-right-white.svg";
-  });
-
-  buttonHomeAction.addEventListener("mouseout", function () {
-    buttonHomeAction.querySelector(".button-next").src = "img/general/ph_arrow-right.svg";
-  });
-
+  if (buttonHomeAction.querySelector(".button-next") != null) {
+    buttonHomeAction.addEventListener("mouseover", function () {
+      buttonHomeAction.querySelector(".button-next").src = "img/general/ph_arrow-right-white.svg";
+    });
   
+    buttonHomeAction.addEventListener("mouseout", function () {
+      buttonHomeAction.querySelector(".button-next").src = "img/general/ph_arrow-right.svg";
+    });
+  }
 });
 
 
