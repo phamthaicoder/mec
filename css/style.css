@@ -770,4 +770,86 @@ html {
   color: #ED1C24;
 }
 
+#contact .contact__content {
+  margin-top: 380px;
+}
+#contact .contact__content .contact__item {
+  margin-bottom: 120px;
+}
+#contact .contact__content .contact__item .contact__text {
+  align-items: flex-start;
+}
+#contact .contact__content .contact__item .contact__text .contact__title .title {
+  color: #0C1323;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0;
+}
+#contact .contact__content .contact__item .contact__text .contact__title .description {
+  font-size: 14px;
+  font-weight: 400;
+  color: #0C1323;
+  margin: 12px 0px;
+  opacity: 0.7;
+}
+#contact .contact__content .contact__item .contact__text .contact__address {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border: 1px solid #F1F2F5;
+  padding: 24px;
+  margin: 40px 0px 24px 0;
+}
+#contact .contact__content .contact__item .contact__text .contact__address .address__infor {
+  display: flex;
+  align-items: flex-start;
+}
+#contact .contact__content .contact__item .contact__text .contact__address .address__infor .address__infor-desc {
+  margin-left: 12px;
+}
+#contact .contact__content .contact__item .contact__text .contact__address .address__infor .address__infor-desc p {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+#contact .contact__content .contact__item .contact__text .contact__address .address__infor .address__infor-desc p.address__name {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0C1323;
+  opacity: unset;
+}
+#contact .contact__content .contact__item .contact__text .contact__address .address__infor .address__infor-desc a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+#contact .contact__content .contact__item .contact__text .contact__address .address__infor .address__infor-desc a.hotline {
+  color: #fff;
+  background-color: #ED1C24;
+  padding: 4px 8px;
+}
+#contact .contact__content .contact__item .contact__text .contact__address .addess__action {
+  text-decoration: none;
+  color: #ED1C24;
+}
+#contact .contact__content .contact__item .contact__image img {
+  width: 100%;
+}
+
+@media (max-width: 767.98px) {
+  #contact .contact__content .contact__item .contact__text .contact__title .title {
+    text-align: center;
+  }
+  #contact .contact__content .contact__item .contact__text .contact__address {
+    flex-direction: column;
+    align-items: center;
+  }
+  #contact .contact__content .contact__item .contact__text .contact__address .addess__action {
+    margin: 24px 0 0 -145px;
+  }
+  #contact .contact__content .contact__item .contact__image img {
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
