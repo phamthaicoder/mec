@@ -68,6 +68,10 @@ html {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 @font-face {
   font-family: "SVN-Poppins";
   src: url("../font/SVN-Poppins/SVN-Poppins-Regular.otf"), url("../font/SVN-Poppins/SVN-Poppins-Italic.otf"), url("../font/SVN-Poppins/SVN-Poppins-Medium.otf"), url("../font/SVN-Poppins/SVN-Poppins-Black.otf"), url("../font/SVN-Poppins/SVN-Poppins-SemiBold.otf"), url("../font//SVN-Poppins/OTF/SVN-Poppins-Black.otf") format("embedded-opentype"), url("../font//SVN-Poppins/OTF/SVN-Poppins-BlackItalic.otf") format("embedded-opentype"), url("../font//SVN-Poppins/OTF/SVN-Poppins-Bold.otf") format("embedded-opentype"), url("../font//SVN-Poppins/OTF/SVN-Poppins-BoldItalic.otf") format("embedded-opentype"), url("../font//SVN-Poppins/OTF/SVN-Poppins-ExtraBold.otf") format("embedded-opentype"), url("../font//SVN-Poppins/OTF/SVN-Poppins-ExtraBoldItalic.otf") format("embedded-opentype"), url("../font//SVN-Poppins/OTF/SVN-Poppins-ExtraLight.otf") format("embedded-opentype"), url("../font//SVN-Poppins/OTF/SVN-Poppins-ExtraLightItalic.otf") format("embedded-opentype"), url("../font//SVN-Poppins/OTF/SVN-Poppins-Italic.otf") format("embedded-opentype"), url("../font//SVN-Poppins/OTF/SVN-Poppins-Light.otf") format("embedded-opentype"), url("../font//SVN-Poppins/OTF/SVN-Poppins-LightItalic.otf") format("embedded-opentype"), url("../font//SVN-Poppins/OTF/SVN-Poppins-Medium.otf") format("embedded-opentype"), url("../font//SVN-Poppins/OTF/SVN-Poppins-MediumItalic.otf") format("embedded-opentype"), url("../font//SVN-Poppins/OTF/SVN-Poppins-Regular.otf") format("embedded-opentype"), url("../font//SVN-Poppins/OTF/SVN-Poppins-SemiBold.otf") format("embedded-opentype"), url("../font//SVN-Poppins/OTF/SVN-Poppins-SemiBoldItalic.otf") format("embedded-opentype"), url("../font//SVN-Poppins/OTF/SVN-Poppins-Thin.otf") format("embedded-opentype"), url("../font//SVN-Poppins/OTF/SVN-Poppins-ThinItalic.otf") format("embedded-opentype"), url("../font//SVN-Poppins/TTF/SVN-Poppins-Italic.ttf") format("truetype"), url("../font//SVN-Poppins/TTF/SVN-Poppins-Medium.ttf") format("truetype"), url("../font//SVN-Poppins/TTF/SVN-Poppins-Regular.ttf") format("truetype"), url("../font//SVN-Poppins/TTF/SVN-Poppins-SemiBold.ttf") format("truetype");
@@ -322,6 +326,21 @@ html {
 .button__action:hover {
   background-color: #ED1C24;
   color: #fff !important;
+}
+
+.breadcrumb .breadcrumb-item {
+  margin-bottom: 40px;
+}
+.breadcrumb .breadcrumb-item a {
+  color: #0C1323;
+  font-size: 14px;
+  font-weight: 400;
+}
+.breadcrumb .breadcrumb-item img {
+  width: 16px;
+}
+.breadcrumb .breadcrumb-item.name {
+  opacity: 0.7;
 }
 
 #home .slider {
@@ -768,6 +787,118 @@ html {
 }
 #project .project__content .project__action .project__image .button__action:hover p {
   color: #ED1C24;
+}
+
+#project__detail .project__detail__content {
+  margin-top: 380px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left {
+  margin-bottom: 64px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .title {
+  color: #0C1323;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 0 24px 0;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0C1323;
+  margin: 12px 0px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .thumbnail img {
+  width: 100%;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .thumbnail .description__image {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5C6069;
+  text-align: center;
+  font-style: italic;
+  margin-top: 8px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action {
+  margin-top: 48px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action a {
+  padding: 9px 16px;
+  background-color: #0068FF;
+  margin-right: 8px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action a img {
+  margin-right: 12px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action a span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__title {
+  display: flex;
+  margin-bottom: 34px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item {
+  display: flex;
+  margin-bottom: 24px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__body {
+  margin-left: 16px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__body .card__name {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 12px;
+  color: #0C1323;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__body .card__description {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__body .card__description p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  color: #5C6069;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__body .card__description img {
+  width: 16px;
+  height: 16px;
+  margin-right: 9.5px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-bottom .title {
+  font-size: 24px;
+  font-weight: 400;
+  color: #0C1323;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__item {
+  margin: 25px 30px 40px 0;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__img img {
+  width: 100%;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__body .card__name {
+  margin: 24px 0 12px 0;
+  font-size: 24px;
+  font-weight: 400;
+  color: #0C1323;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__body .card__description {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__body .card__description p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #5C6069;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__body .card__description img {
+  width: 16px;
+  height: 16px;
+  margin-right: 9.5px;
 }
 
 #contact .contact__content {

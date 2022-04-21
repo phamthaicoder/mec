@@ -1,0 +1,17 @@
+.breadcrumb {
+    .breadcrumb-item {
+        margin-bottom: 40px;
+        a {
+            color: $color-black;
+            font-size: 14px;
+            font-weight: 400;
+        }
+        img {
+            width: 16px;
+        }
+        &.name {
+            opacity: 0.7;
+        }
+    }
+}
+$breadcrumb-divider: url("../../img/general/ph_arrow-right.svg");
