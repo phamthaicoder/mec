@@ -842,6 +842,9 @@ a {
   display: flex;
   margin-bottom: 24px;
 }
+#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__img {
+  width: 100px;
+}
 #project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__body {
   margin-left: 16px;
 }
