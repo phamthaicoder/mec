@@ -1,0 +1,168 @@
+#project__detail {
+    .project__detail__content {
+        margin-top: 380px;
+        .project__detail__item {
+            .project__detail-left {
+                margin-bottom: 64px;
+                .project__detail__text {
+                    .title {
+                        color: $color-black;
+                        font-size: 32px;
+                        font-weight: 600;
+                        margin: 0 0 24px 0;
+                    }
+                    .description {
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: $color-black;
+                        margin: 12px 0px;
+                    }
+                    .thumbnail {
+                        img {
+                            width: 100%;
+                        }
+                        .description__image {
+                            font-size: 16px;
+                            font-weight: 400;
+                            color: $color-gray-bold;
+                            text-align: center;
+                            font-style: italic;
+                            margin-top: 8px;
+                        }
+                    }
+                    .project__detail__action {
+                        margin-top: 48px;
+                        a {
+                            padding: 9px 16px;
+                            background-color: $color-blue;
+                            margin-right: 8px;
+                            img {
+                                margin-right: 12px;
+                            }
+                            span {
+                                color: $color-white;
+                                font-size: 14px;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .project__detail-right {
+                .project__outstand__title {
+                    display: flex;  
+                    margin-bottom: 34px;
+                }
+                .project__outstand__item {
+                    display: flex;
+                    margin-bottom: 24px;
+                    .card__img {
+                        width: 100px;
+                    }
+                    .card__body {
+                        margin-left: 16px;
+                        .card__name {
+                            font-size: 16px;
+                            font-weight: 400;
+                            margin-bottom: 12px;
+                            color: $color-black;
+                        }
+                        .card__description {
+                            display: flex;
+                            align-items: center;
+                            margin-bottom: 4px;
+                            p {
+                                margin: 0;
+                                font-size: 12px;
+                                font-weight: 400;
+                                color: $color-gray-bold;
+                            }
+                            img {
+                                width: 16px;
+                                height: 16px;
+                                margin-right: 9.5px;    
+                            }
+                        }
+                    }
+                }
+            }
+
+            .project__detail-bottom {
+                .title {
+                    font-size: 24px;
+                    font-weight: 400;
+                    color: $color-black;
+                }
+                .project__detail__card {
+                    .card__item {
+                    margin: 25px 30px 40px 0;
+
+                    }
+                    .card__img {
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .card__body {
+                        .card__name {
+                            margin: 24px 0 12px 0;
+                            font-size: 24px;
+                            font-weight: 400;
+                            color: $color-black;
+                        }
+                        .card__description {
+                            display: flex;
+                            // justify-content: center;
+                            align-items: center;
+                            margin-bottom: 4px;
+                            p {
+                                margin: 0;
+                                font-size: 14px;
+                                font-weight: 400;
+                                color: $color-gray-bold;
+                            }
+                            img {
+                                width: 16px;
+                                height: 16px;
+                                margin-right: 9.5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// `xs` returns only a ruleset and no media query
+// ... { ... }
+
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    
+}
+
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    
+}
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+
+}
+
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+
+}
+
+// `xxl` applies to x-large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+
+}
+
+@media (max-width: 1599.98px) {
+
+}

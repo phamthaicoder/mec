@@ -713,6 +713,236 @@ a {
     margin-top: 300px;
   }
 }
+#project__detail .project__detail__content {
+  margin-top: 380px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left {
+  margin-bottom: 64px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .title {
+  color: #0C1323;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 0 24px 0;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0C1323;
+  margin: 12px 0px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .thumbnail img {
+  width: 100%;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .thumbnail .description__image {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5C6069;
+  text-align: center;
+  font-style: italic;
+  margin-top: 8px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action {
+  margin-top: 48px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action a {
+  padding: 9px 16px;
+  background-color: #0068FF;
+  margin-right: 8px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action a img {
+  margin-right: 12px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action a span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__title {
+  display: flex;
+  margin-bottom: 34px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item {
+  display: flex;
+  margin-bottom: 24px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__img {
+  width: 100px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__body {
+  margin-left: 16px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__body .card__name {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 12px;
+  color: #0C1323;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__body .card__description {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__body .card__description p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  color: #5C6069;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__body .card__description img {
+  width: 16px;
+  height: 16px;
+  margin-right: 9.5px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-bottom .title {
+  font-size: 24px;
+  font-weight: 400;
+  color: #0C1323;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__item {
+  margin: 25px 30px 40px 0;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__img img {
+  width: 100%;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__body .card__name {
+  margin: 24px 0 12px 0;
+  font-size: 24px;
+  font-weight: 400;
+  color: #0C1323;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__body .card__description {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__body .card__description p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #5C6069;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__body .card__description img {
+  width: 16px;
+  height: 16px;
+  margin-right: 9.5px;
+}
+
+#project__detail .project__detail__content {
+  margin-top: 380px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left {
+  margin-bottom: 64px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .title {
+  color: #0C1323;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 0 24px 0;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0C1323;
+  margin: 12px 0px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .thumbnail img {
+  width: 100%;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .thumbnail .description__image {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5C6069;
+  text-align: center;
+  font-style: italic;
+  margin-top: 8px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action {
+  margin-top: 48px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action a {
+  padding: 9px 16px;
+  background-color: #0068FF;
+  margin-right: 8px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action a img {
+  margin-right: 12px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action a span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__title {
+  display: flex;
+  margin-bottom: 34px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item {
+  display: flex;
+  margin-bottom: 24px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__img {
+  width: 100px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__body {
+  margin-left: 16px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__body .card__name {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 12px;
+  color: #0C1323;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__body .card__description {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__body .card__description p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  color: #5C6069;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__body .card__description img {
+  width: 16px;
+  height: 16px;
+  margin-right: 9.5px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-bottom .title {
+  font-size: 24px;
+  font-weight: 400;
+  color: #0C1323;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__item {
+  margin: 25px 30px 40px 0;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__img img {
+  width: 100%;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__body .card__name {
+  margin: 24px 0 12px 0;
+  font-size: 24px;
+  font-weight: 400;
+  color: #0C1323;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__body .card__description {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__body .card__description p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #5C6069;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__body .card__description img {
+  width: 16px;
+  height: 16px;
+  margin-right: 9.5px;
+}
+
 #project .project__content {
   margin-top: 380px;
 }
