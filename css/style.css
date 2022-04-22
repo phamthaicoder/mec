@@ -713,28 +713,31 @@ a {
     margin-top: 300px;
   }
 }
-#project__detail .project__detail__content {
+#solution .solution__content {
   margin-top: 380px;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-left {
+#solution .solution__content .solution__item .solution-left {
   margin-bottom: 64px;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .title {
+#solution .solution__content .solution__item .solution-left .solution__text .title {
   color: #0C1323;
   font-size: 32px;
   font-weight: 600;
   margin: 0 0 24px 0;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .description {
+#solution .solution__content .solution__item .solution-left .solution__text .description {
   font-size: 16px;
   font-weight: 400;
   color: #0C1323;
   margin: 12px 0px;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .thumbnail img {
+#solution .solution__content .solution__item .solution-left .solution__text .thumbnail {
+  margin-bottom: 8px;
+}
+#solution .solution__content .solution__item .solution-left .solution__text .thumbnail img {
   width: 100%;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .thumbnail .description__image {
+#solution .solution__content .solution__item .solution-left .solution__text .thumbnail .description__image {
   font-size: 16px;
   font-weight: 400;
   color: #5C6069;
@@ -742,114 +745,144 @@ a {
   font-style: italic;
   margin-top: 8px;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action {
-  margin-top: 48px;
+#solution .solution__content .solution__item .solution-left .solution__text .solution__action {
+  margin-top: 88px;
+  text-align: center;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action a {
-  padding: 9px 16px;
-  background-color: #0068FF;
-  margin-right: 8px;
-}
-#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action a img {
-  margin-right: 12px;
-}
-#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action a span {
-  color: #fff;
-  font-size: 14px;
+#solution .solution__content .solution__item .solution-left .solution__text .solution__action .text {
+  font-size: 18px;
   font-weight: 600;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__title {
+#solution .solution__content .solution__item .solution-left .solution__text .solution__action .hotline {
+  font-size: 32px;
+  font-weight: 600;
+  color: #ED1C24;
+}
+#solution .solution__content .solution__item .solution-right .solution__outstand__title {
   display: flex;
   margin-bottom: 34px;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item {
+#solution .solution__content .solution__item .solution-right .solution__outstand__item {
   display: flex;
   margin-bottom: 24px;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__img {
+#solution .solution__content .solution__item .solution-right .solution__outstand__item .card__img {
   width: 100px;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__body {
+#solution .solution__content .solution__item .solution-right .solution__outstand__item .card__body {
   margin-left: 16px;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__body .card__name {
+#solution .solution__content .solution__item .solution-right .solution__outstand__item .card__body .card__name {
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 12px;
   color: #0C1323;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__body .card__description {
+#solution .solution__content .solution__item .solution-right .solution__outstand__item .card__body .card__description {
   display: flex;
   align-items: center;
   margin-bottom: 4px;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__body .card__description p {
+#solution .solution__content .solution__item .solution-right .solution__outstand__item .card__body .card__description p {
   margin: 0;
   font-size: 12px;
   font-weight: 400;
   color: #5C6069;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__body .card__description img {
+#solution .solution__content .solution__item .solution-right .solution__outstand__item .card__body .card__description img {
   width: 16px;
   height: 16px;
   margin-right: 9.5px;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-bottom .title {
+#solution .solution__content .solution__item .solution-bottom .title {
   font-size: 24px;
   font-weight: 400;
   color: #0C1323;
+  margin-bottom: 24px;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__item {
-  margin: 25px 30px 40px 0;
+#solution .solution__content .solution__item .solution-bottom .solution__card {
+  margin-bottom: 154px;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__img img {
+#solution .solution__content .solution__item .solution-bottom .solution__card .card__item {
+  position: relative;
+  margin-bottom: 100px;
+}
+#solution .solution__content .solution__item .solution-bottom .solution__card .card__item .card__image {
   width: 100%;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__body .card__name {
-  margin: 24px 0 12px 0;
-  font-size: 24px;
-  font-weight: 400;
-  color: #0C1323;
+#solution .solution__content .solution__item .solution-bottom .solution__card .card__item .card__description {
+  position: absolute;
+  bottom: -50px;
+  left: 15px;
+  width: 95%;
+  background-color: #fff;
+  padding: 10px 0 0 20px;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__body .card__description {
-  display: flex;
-  align-items: center;
-  margin-bottom: 4px;
+#solution .solution__content .solution__item .solution-bottom .solution__card .card__item .card__description p {
+  font-size: 16px;
+  font-weight: 600;
+  height: 50px;
+  word-break: break-word;
+  margin: 12px 12px 12px 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__body .card__description p {
-  margin: 0;
+#solution .solution__content .solution__item .solution-bottom .solution__card .card__item .card__description span {
+  display: block;
+  color: #5C6069;
   font-size: 14px;
   font-weight: 400;
-  color: #5C6069;
-}
-#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__body .card__description img {
-  width: 16px;
-  height: 16px;
-  margin-right: 9.5px;
+  margin: 12px 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
 }
 
-#project__detail .project__detail__content {
+@media (max-width: 991.98px) {
+  #solution .solution__content {
+    margin-top: 380px;
+  }
+  #solution .solution__content .solution__item .solution-bottom .solution__card {
+    margin-bottom: 16px;
+  }
+  #solution .solution__content .solution__item .solution-bottom .solution__card .card__item {
+    margin: 0;
+  }
+  #solution .solution__content .solution__item .solution-bottom .solution__card .card__item .card__description {
+    position: unset;
+    width: 100%;
+    background-color: #fff;
+    padding: 0;
+  }
+}
+#service .service__content {
   margin-top: 380px;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-left {
+#service .service__content .service__item .service-left {
   margin-bottom: 64px;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .title {
+#service .service__content .service__item .service-left .service__text .title {
   color: #0C1323;
   font-size: 32px;
   font-weight: 600;
   margin: 0 0 24px 0;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .description {
+#service .service__content .service__item .service-left .service__text .description {
   font-size: 16px;
   font-weight: 400;
   color: #0C1323;
   margin: 12px 0px;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .thumbnail img {
+#service .service__content .service__item .service-left .service__text .thumbnail {
+  margin-bottom: 8px;
+}
+#service .service__content .service__item .service-left .service__text .thumbnail img {
   width: 100%;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .thumbnail .description__image {
+#service .service__content .service__item .service-left .service__text .thumbnail .description__image {
   font-size: 16px;
   font-weight: 400;
   color: #5C6069;
@@ -857,92 +890,119 @@ a {
   font-style: italic;
   margin-top: 8px;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action {
-  margin-top: 48px;
+#service .service__content .service__item .service-left .service__text .service__action {
+  margin-top: 88px;
+  text-align: center;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action a {
-  padding: 9px 16px;
-  background-color: #0068FF;
-  margin-right: 8px;
-}
-#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action a img {
-  margin-right: 12px;
-}
-#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action a span {
-  color: #fff;
-  font-size: 14px;
+#service .service__content .service__item .service-left .service__text .service__action .text {
+  font-size: 18px;
   font-weight: 600;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__title {
+#service .service__content .service__item .service-left .service__text .service__action .hotline {
+  font-size: 32px;
+  font-weight: 600;
+  color: #ED1C24;
+}
+#service .service__content .service__item .service-right .service__outstand__title {
   display: flex;
   margin-bottom: 34px;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item {
+#service .service__content .service__item .service-right .service__outstand__item {
   display: flex;
   margin-bottom: 24px;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__img {
+#service .service__content .service__item .service-right .service__outstand__item .card__img {
   width: 100px;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__body {
+#service .service__content .service__item .service-right .service__outstand__item .card__body {
   margin-left: 16px;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__body .card__name {
+#service .service__content .service__item .service-right .service__outstand__item .card__body .card__name {
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 12px;
   color: #0C1323;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__body .card__description {
+#service .service__content .service__item .service-right .service__outstand__item .card__body .card__description {
   display: flex;
   align-items: center;
   margin-bottom: 4px;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__body .card__description p {
+#service .service__content .service__item .service-right .service__outstand__item .card__body .card__description p {
   margin: 0;
   font-size: 12px;
   font-weight: 400;
   color: #5C6069;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__body .card__description img {
+#service .service__content .service__item .service-right .service__outstand__item .card__body .card__description img {
   width: 16px;
   height: 16px;
   margin-right: 9.5px;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-bottom .title {
+#service .service__content .service__item .service-bottom .title {
   font-size: 24px;
   font-weight: 400;
   color: #0C1323;
+  margin-bottom: 24px;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__item {
-  margin: 25px 30px 40px 0;
+#service .service__content .service__item .service-bottom .service__card {
+  margin-bottom: 154px;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__img img {
+#service .service__content .service__item .service-bottom .service__card .card__item {
+  position: relative;
+  margin-bottom: 100px;
+}
+#service .service__content .service__item .service-bottom .service__card .card__item .card__image {
   width: 100%;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__body .card__name {
-  margin: 24px 0 12px 0;
-  font-size: 24px;
-  font-weight: 400;
-  color: #0C1323;
+#service .service__content .service__item .service-bottom .service__card .card__item .card__description {
+  position: absolute;
+  bottom: -50px;
+  left: 15px;
+  width: 95%;
+  background-color: #fff;
+  padding: 10px 0 0 20px;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__body .card__description {
-  display: flex;
-  align-items: center;
-  margin-bottom: 4px;
+#service .service__content .service__item .service-bottom .service__card .card__item .card__description p {
+  font-size: 16px;
+  font-weight: 600;
+  height: 50px;
+  word-break: break-word;
+  margin: 12px 12px 12px 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
 }
-#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__body .card__description p {
-  margin: 0;
+#service .service__content .service__item .service-bottom .service__card .card__item .card__description span {
+  display: block;
+  color: #5C6069;
   font-size: 14px;
   font-weight: 400;
-  color: #5C6069;
-}
-#project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__body .card__description img {
-  width: 16px;
-  height: 16px;
-  margin-right: 9.5px;
+  margin: 12px 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
 }
 
+@media (max-width: 991.98px) {
+  #service .service__content {
+    margin-top: 380px;
+  }
+  #service .service__content .service__item .service-bottom .service__card {
+    margin-bottom: 16px;
+  }
+  #service .service__content .service__item .service-bottom .service__card .card__item {
+    margin: 0;
+  }
+  #service .service__content .service__item .service-bottom .service__card .card__item .card__description {
+    position: unset;
+    width: 100%;
+    background-color: #fff;
+    padding: 0;
+  }
+}
 #project .project__content {
   margin-top: 380px;
 }

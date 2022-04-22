@@ -1,10 +1,10 @@
-#project__detail {
-    .project__detail__content {
+#service {
+    .service__content {
         margin-top: 380px;
-        .project__detail__item {
-            .project__detail-left {
+        .service__item {
+            .service-left {
                 margin-bottom: 64px;
-                .project__detail__text {
+                .service__text {
                     .title {
                         color: $color-black;
                         font-size: 32px;
@@ -18,6 +18,7 @@
                         margin: 12px 0px;
                     }
                     .thumbnail {
+                        margin-bottom: 8px;
                         img {
                             width: 100%;
                         }
@@ -30,31 +31,28 @@
                             margin-top: 8px;
                         }
                     }
-                    .project__detail__action {
-                        margin-top: 48px;
-                        a {
-                            padding: 9px 16px;
-                            background-color: $color-blue;
-                            margin-right: 8px;
-                            img {
-                                margin-right: 12px;
-                            }
-                            span {
-                                color: $color-white;
-                                font-size: 14px;
-                                font-weight: 600;
-                            }
+                    .service__action {
+                        margin-top: 88px;
+                        text-align: center;
+                        .text {
+                            font-size: 18px;
+                            font-weight: 600;
+                        }
+                        .hotline {
+                            font-size: 32px;
+                            font-weight: 600;
+                            color: $color-primary;
                         }
                     }
                 }
             }
 
-            .project__detail-right {
-                .project__outstand__title {
+            .service-right {
+                .service__outstand__title {
                     display: flex;  
                     margin-bottom: 34px;
                 }
-                .project__outstand__item {
+                .service__outstand__item {
                     display: flex;
                     margin-bottom: 24px;
                     .card__img {
@@ -88,44 +86,49 @@
                 }
             }
 
-            .project__detail-bottom {
+            .service-bottom {
                 .title {
                     font-size: 24px;
                     font-weight: 400;
                     color: $color-black;
+                    margin-bottom: 24px;
                 }
-                .project__detail__card {
+                .service__card {
+                    margin-bottom: 154px;
                     .card__item {
-                    margin: 25px 30px 40px 0;
-
-                    }
-                    .card__img {
-                        img {
+                        position: relative;
+                        margin-bottom: 100px;
+                        .card__image {
                             width: 100%;
                         }
-                    }
-                    .card__body {
-                        .card__name {
-                            margin: 24px 0 12px 0;
-                            font-size: 24px;
-                            font-weight: 400;
-                            color: $color-black;
-                        }
                         .card__description {
-                            display: flex;
-                            // justify-content: center;
-                            align-items: center;
-                            margin-bottom: 4px;
+                            position: absolute;
+                            bottom: -50px;
+                            left: 15px;
+                            width: 95%;
+                            background-color: $color-white;
+                            padding: 10px 0 0 20px;
                             p {
-                                margin: 0;
+                                font-size: 16px;
+                                font-weight: 600;
+                                height: 50px;
+                                word-break: break-word;
+                                margin: 12px 12px 12px 0;
+                                -webkit-line-clamp: 2;
+                                -webkit-box-orient: vertical;
+                                overflow: hidden;
+                                display: -webkit-box;
+                            }
+                            span {
+                                display: block;
+                                color: $color-gray-bold;
                                 font-size: 14px;
                                 font-weight: 400;
-                                color: $color-gray-bold;
-                            }
-                            img {
-                                width: 16px;
-                                height: 16px;
-                                margin-right: 9.5px;
+                                margin: 12px 0;
+                                -webkit-line-clamp: 2;
+                                -webkit-box-orient: vertical;
+                                overflow: hidden;
+                                display: -webkit-box;
                             }
                         }
                     }
@@ -150,7 +153,28 @@
 
 // `lg` applies to medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
-
+    #service {
+        .service__content {
+            margin-top: 380px;
+            .service__item {
+                .service-bottom {
+                    .service__card {
+                        margin-bottom: 16px;
+                        .card__item {
+                            margin: 0;
+                            .card__description {
+                                position: unset;
+                                width: 100%;
+                                background-color: $color-white;
+                                padding: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
 }
 
 // `xl` applies to large devices (desktops, less than 1200px)
