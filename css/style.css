@@ -1111,6 +1111,9 @@ a {
 #project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action {
   margin-top: 48px;
 }
+#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action p {
+  display: none;
+}
 #project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action a {
   padding: 9px 16px;
   background-color: #0068FF;
@@ -1123,6 +1126,9 @@ a {
   color: #fff;
   font-size: 14px;
   font-weight: 600;
+}
+#project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action a span.responsive {
+  display: none;
 }
 #project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__title {
   display: flex;
@@ -1194,6 +1200,38 @@ a {
   margin-right: 9.5px;
 }
 
+@media (max-width: 991.98px) {
+  #project__detail .project__detail__content {
+    margin-top: 380px;
+  }
+  #project__detail .project__detail__content .project__detail__item .project__detail-left {
+    margin-bottom: 64px;
+  }
+  #project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action {
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+  }
+  #project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action p {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  #project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action a {
+    padding: 9px 16px;
+    background-color: #0068FF;
+    margin: 0 8px;
+  }
+  #project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action a img {
+    margin-right: 12px;
+  }
+  #project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action a span {
+    display: none;
+  }
+  #project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action a span.responsive {
+    display: contents;
+  }
+}
 #contact .contact__content {
   margin-top: 380px;
 }

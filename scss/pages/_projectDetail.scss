@@ -32,6 +32,9 @@
                     }
                     .project__detail__action {
                         margin-top: 48px;
+                        p {
+                            display: none;
+                        }
                         a {
                             padding: 9px 16px;
                             background-color: $color-blue;
@@ -43,6 +46,9 @@
                                 color: $color-white;
                                 font-size: 14px;
                                 font-weight: 600;
+                                &.responsive {
+                                    display: none;
+                                }
                             }
                         }
                     }
@@ -150,7 +156,42 @@
 
 // `lg` applies to medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
-
+    #project__detail {
+        .project__detail__content {
+            margin-top: 380px;
+            .project__detail__item {
+                .project__detail-left {
+                    margin-bottom: 64px;
+                    .project__detail__text {
+                        .project__detail__action {
+                            margin-top: 48px;
+                            display: flex;
+                            align-items: center;
+                            p {
+                                display: block;
+                                font-size: 14px;
+                                font-weight: 600;
+                            }
+                            a {
+                                padding: 9px 16px;
+                                background-color: $color-blue;
+                                margin: 0 8px;
+                                img {
+                                    margin-right: 12px;
+                                }
+                                span {
+                                    display: none;
+                                    &.responsive {
+                                        display: contents;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 // `xl` applies to large devices (desktops, less than 1200px)
