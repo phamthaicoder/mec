@@ -57,8 +57,10 @@
 
         .footer__column {
             &:not(:first-child) {
-            padding-left: 10%;
-                
+                padding-left: 10%;
+            }
+            &.responsive {
+                display: none;
             }
         }
     }
@@ -79,7 +81,15 @@
         .footer__content {
             .footer__column {
                 border-bottom: 1px solid rgba($color: #fff, $alpha: 0.15);
-              
+                &:not(:first-child) {
+                    display: none;
+                }
+                &.responsive {
+                    display: block;
+                }
+                &.last {
+                    border-bottom: none;
+                }
             }
         }
     }
