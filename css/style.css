@@ -118,6 +118,9 @@ a {
 .navbar .navbar-nav.menu .nav-item.dropdown .nav-link:hover {
   border: none;
 }
+.navbar .navbar-nav.menu .nav-item.dropdown:hover {
+  border-bottom: 2px solid #ED1C24;
+}
 .navbar .navbar-nav.menu .nav-item.dropdown:hover .dropdown-menu {
   display: block;
   top: 58px;
@@ -125,6 +128,16 @@ a {
   border: none;
   border-radius: unset;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05), 0px 8px 24px rgba(0, 0, 0, 0.1);
+}
+.navbar .navbar-nav.menu .nav-item.dropdown:hover .dropdown-item {
+  margin: 12px 0px;
+}
+.navbar .navbar-nav.menu .nav-item.dropdown:hover .dropdown-item:hover, .navbar .navbar-nav.menu .nav-item.dropdown:hover .dropdown-item:focus {
+  background-color: unset;
+}
+.navbar .navbar-nav.menu .nav-item.dropdown:hover .dropdown-item:active {
+  background-color: unset;
+  color: #ED1C24;
 }
 .navbar .navbar-nav.menu .nav-item .nav-link {
   color: #5C6069;
@@ -148,6 +161,19 @@ a {
   border-radius: unset;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05), 0px 8px 24px rgba(0, 0, 0, 0.1);
 }
+.navbar .navbar-language .dropdown-menu .dropdown-item {
+  margin: 12px 0px;
+}
+.navbar .navbar-language .dropdown-menu .dropdown-item img {
+  width: 16px;
+}
+.navbar .navbar-language .dropdown-menu .dropdown-item span {
+  font-size: 14px;
+  font-weight: 400;
+}
+.navbar .navbar-toggler {
+  border: none;
+}
 
 .offcanvas .offcanvas-header {
   border-bottom: 1px solid #F1F2F5;
@@ -159,6 +185,9 @@ a {
   position: relative;
 }
 .offcanvas .offcanvas-body .navbar-nav.menu .nav-item.dropdown .nav-link:hover {
+  border: none;
+}
+.offcanvas .offcanvas-body .navbar-nav.menu .nav-item.dropdown:hover {
   border: none;
 }
 .offcanvas .offcanvas-body .navbar-nav.menu .nav-item.dropdown:hover .dropdown-menu {
@@ -362,6 +391,7 @@ a {
 }
 #home #ss .ss__content .ss__card .card__image {
   width: 100%;
+  height: 100%;
 }
 #home #ss .ss__content .ss__card .card__description {
   position: absolute;
@@ -411,6 +441,7 @@ a {
 #home #project .project__btn span {
   font-size: 14px;
   font-weight: 600;
+  color: inherit;
 }
 #home #project .project__btn img {
   margin-left: 14px;
