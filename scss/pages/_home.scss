@@ -217,7 +217,19 @@
 
 // `sm` applies to x-small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
-    
+    #home {
+        #ss {
+            .ss__content {
+                .ss__card {
+                    margin-bottom: 24px !important;
+                    .card__image {
+                        height: 200px !important;
+                    }
+                }
+                
+            }
+        }
+    }
 }
 
 // `md` applies to small devices (landscape phones, less than 768px)
@@ -228,7 +240,6 @@
 // `lg` applies to medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
     #home {
-
         #project {
             .project__header {
                 display: block;
@@ -306,8 +317,6 @@
             }
         }
     }
-    
-
 }
 
 // `xl` applies to large devices (desktops, less than 1200px)

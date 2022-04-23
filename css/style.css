@@ -563,6 +563,14 @@ a {
   width: 16px;
 }
 
+@media (max-width: 575.98px) {
+  #home #ss .ss__content .ss__card {
+    margin-bottom: 24px !important;
+  }
+  #home #ss .ss__content .ss__card .card__image {
+    height: 200px !important;
+  }
+}
 @media (max-width: 991.98px) {
   #home #project .project__header {
     display: block;
