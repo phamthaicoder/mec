@@ -544,13 +544,12 @@ a {
 }
 #home #product .product__content .content__item {
   margin-bottom: 12px;
+  border: 1px solid #F1F2F5;
 }
 #home #product .product__content .content__item img {
   margin-right: 24px;
 }
 #home #product .product__content .content__item div {
-  border: solid #F1F2F5;
-  border-width: 1px 1px 1px 0;
   height: 100%;
   width: 100%;
   padding: 10px;

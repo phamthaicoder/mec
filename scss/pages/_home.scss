@@ -177,12 +177,12 @@
             margin-bottom: 64px;
             .content__item {
                 margin-bottom: 12px;
+                border: 1px solid $color-gray-light;
                 img {
                     margin-right: 24px;
                 }
                 div {
-                    border:solid $color-gray-light;
-                    border-width: 1px 1px 1px 0;
+
                     height: 100%;
                     width: 100%;
                     padding: 10px;
