@@ -289,7 +289,7 @@ a {
   font-weight: 400;
   color: #fff;
 }
-#footer .footer__content .footer__item:hover {
+#footer .footer__content .footer__item a:hover {
   color: #ED1C24;
 }
 #footer .footer__content .footer__column:not(:first-child) {
