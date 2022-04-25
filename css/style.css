@@ -384,6 +384,20 @@ a {
   opacity: 0.7;
 }
 
+@media (max-width: 575.98px) {
+  .breadcrumb .breadcrumb-item {
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .breadcrumb .breadcrumb-item.name {
+    opacity: 0.7;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+    width: 200px;
+  }
+}
 #home .slider {
   display: flex;
   justify-content: center;
@@ -406,7 +420,7 @@ a {
 }
 #home #ss .ss__content .ss__item .ss__card .card__image {
   width: 100%;
-  height: 100%;
+  height: 320px;
 }
 #home #ss .ss__content .ss__item .ss__card .card__description {
   position: absolute;
@@ -554,6 +568,8 @@ a {
 }
 #home #product .product__content .content__item img {
   margin-right: 24px;
+  width: 120px;
+  height: 120px;
 }
 #home #product .product__content .content__item div {
   height: 100%;
@@ -641,7 +657,7 @@ a {
   }
   #home #ss .ss__content .ss__item .ss__card .card__image {
     width: 100%;
-    height: 80%;
+    height: 260px;
   }
   #home #ss .ss__content .ss__item .ss__card .card__description {
     position: unset;
@@ -661,9 +677,6 @@ a {
     overflow: hidden;
     display: -webkit-box;
     margin: 0;
-  }
-  #home #ss .ss__content .ss__item:hover {
-    background-color: #F7F7F9;
   }
 }
 @media (max-width: 575.98px) {
@@ -730,6 +743,7 @@ a {
 }
 #about .about__content .about__item .about__image img {
   width: 100%;
+  height: 500px;
 }
 #about .about__content .about__action {
   margin-bottom: 120px;
@@ -769,9 +783,19 @@ a {
   color: #ED1C24;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 1599.98px) {
   #about .about__content {
-    margin-top: 220px;
+    margin-top: 300px;
+  }
+}
+@media (max-width: 1399.98px) {
+  #about .about__content {
+    margin-top: 280px;
+  }
+}
+@media (max-width: 1199.98px) {
+  #about .about__content {
+    margin-top: 240px;
   }
 }
 @media (max-width: 991.98px) {
@@ -784,6 +808,10 @@ a {
   #about .about__content .about__item:nth-child(2) .about__text {
     order: -1;
   }
+  #about .about__content .about__item .about__image img {
+    width: 100%;
+    height: 440px;
+  }
   #about .about__content .about__action .about__text {
     text-align: center;
     margin-bottom: 24px;
@@ -792,19 +820,18 @@ a {
     justify-content: center;
   }
 }
-@media (max-width: 1199.98px) {
+@media (max-width: 767.98px) {
   #about .about__content {
-    margin-top: 240px;
+    margin-top: 220px;
+  }
+  #about .about__item .about__image img {
+    width: 100%;
+    height: 320px;
   }
 }
-@media (max-width: 1399.98px) {
+@media (max-width: 575.98px) {
   #about .about__content {
-    margin-top: 280px;
-  }
-}
-@media (max-width: 1599.98px) {
-  #about .about__content {
-    margin-top: 300px;
+    margin-top: 160px;
   }
 }
 #solution .solution__content {
@@ -830,6 +857,7 @@ a {
 }
 #solution .solution__content .solution__item .solution-left .solution__text .thumbnail img {
   width: 100%;
+  height: 500px;
 }
 #solution .solution__content .solution__item .solution-left .solution__text .thumbnail .description__image {
   font-size: 16px;
@@ -862,6 +890,7 @@ a {
 }
 #solution .solution__content .solution__item .solution-right .solution__outstand__item .card__img {
   width: 100px;
+  height: 100px;
 }
 #solution .solution__content .solution__item .solution-right .solution__outstand__item .card__body {
   margin-left: 16px;
@@ -888,31 +917,35 @@ a {
   height: 16px;
   margin-right: 9.5px;
 }
+#solution .solution__content .solution__item .solution-bottom {
+  margin-bottom: 140px;
+}
 #solution .solution__content .solution__item .solution-bottom .title {
   font-size: 24px;
   font-weight: 400;
   color: #0C1323;
   margin-bottom: 24px;
 }
-#solution .solution__content .solution__item .solution-bottom .solution__card {
-  margin-bottom: 154px;
+#solution .solution__content .solution__item .solution-bottom .solution__card__item {
+  padding: 8px 8px 60px 8px;
+  margin-bottom: 40px;
 }
-#solution .solution__content .solution__item .solution-bottom .solution__card .card__item {
+#solution .solution__content .solution__item .solution-bottom .solution__card__item .solution__card {
   position: relative;
-  margin-bottom: 100px;
 }
-#solution .solution__content .solution__item .solution-bottom .solution__card .card__item .card__image {
+#solution .solution__content .solution__item .solution-bottom .solution__card__item .solution__card .card__image {
   width: 100%;
+  height: 320px;
 }
-#solution .solution__content .solution__item .solution-bottom .solution__card .card__item .card__description {
+#solution .solution__content .solution__item .solution-bottom .solution__card__item .solution__card .card__description {
   position: absolute;
   bottom: -50px;
-  left: 15px;
-  width: 95%;
+  left: 30px;
+  width: 90.5%;
   background-color: #fff;
   padding: 10px 0 0 20px;
 }
-#solution .solution__content .solution__item .solution-bottom .solution__card .card__item .card__description p {
+#solution .solution__content .solution__item .solution-bottom .solution__card__item .solution__card .card__description p {
   font-size: 16px;
   font-weight: 600;
   height: 50px;
@@ -923,7 +956,7 @@ a {
   overflow: hidden;
   display: -webkit-box;
 }
-#solution .solution__content .solution__item .solution-bottom .solution__card .card__item .card__description span {
+#solution .solution__content .solution__item .solution-bottom .solution__card__item .solution__card .card__description span {
   display: block;
   color: #5C6069;
   font-size: 14px;
@@ -934,22 +967,94 @@ a {
   overflow: hidden;
   display: -webkit-box;
 }
+#solution .solution__content .solution__item .solution-bottom .solution__card__item .solution__card:hover {
+  background-color: #F7F7F9;
+}
 
-@media (max-width: 991.98px) {
+@media (max-width: 1599.98px) {
   #solution .solution__content {
-    margin-top: 380px;
+    margin-top: 300px;
   }
-  #solution .solution__content .solution__item .solution-bottom .solution__card {
-    margin-bottom: 16px;
+}
+@media (max-width: 1399.98px) {
+  #solution .solution__content {
+    margin-top: 280px;
   }
-  #solution .solution__content .solution__item .solution-bottom .solution__card .card__item {
-    margin: 0;
+}
+@media (max-width: 1199.98px) {
+  #solution .solution__content {
+    margin-top: 240px;
   }
-  #solution .solution__content .solution__item .solution-bottom .solution__card .card__item .card__description {
+}
+@media (max-width: 991.98px) {
+  #solution .solution__content .solution__item .solution-bottom {
+    margin-bottom: 80px;
+  }
+  #solution .solution__content .solution__item .solution-bottom .solution__card__item {
+    padding: 8px 8px 8px 8px;
+    margin-bottom: 24px;
+  }
+  #solution .solution__content .solution__item .solution-bottom .solution__card__item .solution__card {
+    position: relative;
+  }
+  #solution .solution__content .solution__item .solution-bottom .solution__card__item .solution__card .card__image {
+    width: 100%;
+    height: 260px;
+  }
+  #solution .solution__content .solution__item .solution-bottom .solution__card__item .solution__card .card__description {
     position: unset;
     width: 100%;
-    background-color: #fff;
-    padding: 0;
+    padding: 10px 0;
+    margin: 0;
+  }
+  #solution .solution__content .solution__item .solution-bottom .solution__card__item .solution__card .card__description p {
+    font-size: 16px;
+    font-weight: 600;
+    word-break: break-word;
+    margin: 0;
+  }
+  #solution .solution__content .solution__item .solution-bottom .solution__card__item .solution__card .card__description span {
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+    margin: 0;
+  }
+}
+@media (max-width: 767.98px) {
+  #solution .solution__content {
+    margin-top: 220px;
+  }
+  #solution .solution__content .solution__item .solution-left .solution__text .thumbnail img {
+    width: 100%;
+    height: 230px;
+  }
+}
+@media (max-width: 575.98px) {
+  #solution .solution__content {
+    margin-top: 160px;
+  }
+  #solution .solution__content .solution__item .solution-bottom {
+    margin-bottom: 80px;
+  }
+  #solution .solution__content .solution__item .solution-bottom .solution__card__item {
+    margin-bottom: 0;
+  }
+  #solution .solution__content .solution__item .solution-bottom .solution__card__item .solution__card .card__image {
+    height: 166px !important;
+  }
+  #solution .solution__content .solution__item .solution-bottom .solution__card__item .solution__card .card__description p {
+    font-size: 16px;
+    font-weight: 600;
+    word-break: break-word;
+    margin: 12px 0;
+  }
+  #solution .solution__content .solution__item .solution-bottom .solution__card__item .solution__card .card__description span {
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+    margin: 0;
   }
 }
 #service .service__content {
@@ -975,6 +1080,7 @@ a {
 }
 #service .service__content .service__item .service-left .service__text .thumbnail img {
   width: 100%;
+  height: 500px;
 }
 #service .service__content .service__item .service-left .service__text .thumbnail .description__image {
   font-size: 16px;
@@ -1007,6 +1113,7 @@ a {
 }
 #service .service__content .service__item .service-right .service__outstand__item .card__img {
   width: 100px;
+  height: 100px;
 }
 #service .service__content .service__item .service-right .service__outstand__item .card__body {
   margin-left: 16px;
@@ -1033,31 +1140,35 @@ a {
   height: 16px;
   margin-right: 9.5px;
 }
+#service .service__content .service__item .service-bottom {
+  margin-bottom: 140px;
+}
 #service .service__content .service__item .service-bottom .title {
   font-size: 24px;
   font-weight: 400;
   color: #0C1323;
   margin-bottom: 24px;
 }
-#service .service__content .service__item .service-bottom .service__card {
-  margin-bottom: 154px;
+#service .service__content .service__item .service-bottom .service__card__item {
+  padding: 8px 8px 60px 8px;
+  margin-bottom: 40px;
 }
-#service .service__content .service__item .service-bottom .service__card .card__item {
+#service .service__content .service__item .service-bottom .service__card__item .service__card {
   position: relative;
-  margin-bottom: 100px;
 }
-#service .service__content .service__item .service-bottom .service__card .card__item .card__image {
+#service .service__content .service__item .service-bottom .service__card__item .service__card .card__image {
   width: 100%;
+  height: 320px;
 }
-#service .service__content .service__item .service-bottom .service__card .card__item .card__description {
+#service .service__content .service__item .service-bottom .service__card__item .service__card .card__description {
   position: absolute;
   bottom: -50px;
-  left: 15px;
-  width: 95%;
+  left: 30px;
+  width: 90.5%;
   background-color: #fff;
   padding: 10px 0 0 20px;
 }
-#service .service__content .service__item .service-bottom .service__card .card__item .card__description p {
+#service .service__content .service__item .service-bottom .service__card__item .service__card .card__description p {
   font-size: 16px;
   font-weight: 600;
   height: 50px;
@@ -1068,7 +1179,7 @@ a {
   overflow: hidden;
   display: -webkit-box;
 }
-#service .service__content .service__item .service-bottom .service__card .card__item .card__description span {
+#service .service__content .service__item .service-bottom .service__card__item .service__card .card__description span {
   display: block;
   color: #5C6069;
   font-size: 14px;
@@ -1079,22 +1190,94 @@ a {
   overflow: hidden;
   display: -webkit-box;
 }
+#service .service__content .service__item .service-bottom .service__card__item .service__card:hover {
+  background-color: #F7F7F9;
+}
 
-@media (max-width: 991.98px) {
+@media (max-width: 1599.98px) {
   #service .service__content {
-    margin-top: 380px;
+    margin-top: 300px;
   }
-  #service .service__content .service__item .service-bottom .service__card {
-    margin-bottom: 16px;
+}
+@media (max-width: 1399.98px) {
+  #service .service__content {
+    margin-top: 280px;
   }
-  #service .service__content .service__item .service-bottom .service__card .card__item {
-    margin: 0;
+}
+@media (max-width: 1199.98px) {
+  #service .service__content {
+    margin-top: 240px;
   }
-  #service .service__content .service__item .service-bottom .service__card .card__item .card__description {
+}
+@media (max-width: 991.98px) {
+  #service .service__content .service__item .service-bottom {
+    margin-bottom: 80px;
+  }
+  #service .service__content .service__item .service-bottom .service__card__item {
+    padding: 8px 8px 8px 8px;
+    margin-bottom: 24px;
+  }
+  #service .service__content .service__item .service-bottom .service__card__item .service__card {
+    position: relative;
+  }
+  #service .service__content .service__item .service-bottom .service__card__item .service__card .card__image {
+    width: 100%;
+    height: 260px;
+  }
+  #service .service__content .service__item .service-bottom .service__card__item .service__card .card__description {
     position: unset;
     width: 100%;
-    background-color: #fff;
-    padding: 0;
+    padding: 10px 0;
+    margin: 0;
+  }
+  #service .service__content .service__item .service-bottom .service__card__item .service__card .card__description p {
+    font-size: 16px;
+    font-weight: 600;
+    word-break: break-word;
+    margin: 0;
+  }
+  #service .service__content .service__item .service-bottom .service__card__item .service__card .card__description span {
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+    margin: 0;
+  }
+}
+@media (max-width: 767.98px) {
+  #service .service__content {
+    margin-top: 220px;
+  }
+  #service .service__content .service__item .service-left .service__text .thumbnail img {
+    width: 100%;
+    height: 230px;
+  }
+}
+@media (max-width: 575.98px) {
+  #service .service__content {
+    margin-top: 160px;
+  }
+  #service .service__content .service__item .service-bottom {
+    margin-bottom: 80px;
+  }
+  #service .service__content .service__item .service-bottom .service__card__item {
+    margin-bottom: 0;
+  }
+  #service .service__content .service__item .service-bottom .service__card__item .service__card .card__image {
+    height: 166px !important;
+  }
+  #service .service__content .service__item .service-bottom .service__card__item .service__card .card__description p {
+    font-size: 16px;
+    font-weight: 600;
+    word-break: break-word;
+    margin: 12px 0;
+  }
+  #service .service__content .service__item .service-bottom .service__card__item .service__card .card__description span {
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+    margin: 0;
   }
 }
 #project .project__content {
@@ -1112,6 +1295,10 @@ a {
   display: flex;
   justify-content: center;
   margin-bottom: 80px;
+}
+#project .project__content .project__item .project__card .card__img img {
+  width: 362px;
+  height: 362px;
 }
 #project .project__content .project__item .project__card .card__body .card__name {
   margin: 24px 0 12px 0;
@@ -1173,6 +1360,39 @@ a {
   color: #ED1C24;
 }
 
+@media (max-width: 1599.98px) {
+  #project .project__content {
+    margin-top: 300px;
+  }
+}
+@media (max-width: 1399.98px) {
+  #project .project__content {
+    margin-top: 280px;
+  }
+  #project .project__content .project__item .project__card .card__img img {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media (max-width: 1199.98px) {
+  #project .project__content {
+    margin-top: 240px;
+  }
+}
+@media (max-width: 767.98px) {
+  #project .project__content {
+    margin-top: 220px;
+  }
+}
+@media (max-width: 575.98px) {
+  #project .project__content {
+    margin-top: 160px;
+  }
+  #project .project__content .project__item .project__card .card__img img {
+    width: 335px;
+    height: 335px;
+  }
+}
 #project__detail .project__detail__content {
   margin-top: 380px;
 }
@@ -1193,6 +1413,7 @@ a {
 }
 #project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .thumbnail img {
   width: 100%;
+  height: 500px;
 }
 #project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .thumbnail .description__image {
   font-size: 16px;
@@ -1234,6 +1455,7 @@ a {
 }
 #project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__img {
   width: 100px;
+  height: 100px;
 }
 #project__detail .project__detail__content .project__detail__item .project__detail-right .project__outstand__item .card__body {
   margin-left: 16px;
@@ -1270,6 +1492,7 @@ a {
 }
 #project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__img img {
   width: 100%;
+  height: 264px;
 }
 #project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__body .card__name {
   margin: 24px 0 12px 0;
@@ -1294,10 +1517,22 @@ a {
   margin-right: 9.5px;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1599.98px) {
   #project__detail .project__detail__content {
-    margin-top: 380px;
+    margin-top: 300px;
   }
+}
+@media (max-width: 1399.98px) {
+  #project__detail .project__detail__content {
+    margin-top: 280px;
+  }
+}
+@media (max-width: 1199.98px) {
+  #project__detail .project__detail__content {
+    margin-top: 240px;
+  }
+}
+@media (max-width: 991.98px) {
   #project__detail .project__detail__content .project__detail__item .project__detail-left {
     margin-bottom: 64px;
   }
@@ -1324,6 +1559,31 @@ a {
   }
   #project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action a span.responsive {
     display: contents;
+  }
+  #project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__img img {
+    width: 100%;
+    height: 335px;
+  }
+}
+@media (max-width: 767.98px) {
+  #project__detail .project__detail__content {
+    margin-top: 220px;
+  }
+  #project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .thumbnail img {
+    width: 100%;
+    height: 230px;
+  }
+  #project__detail .project__detail__content .project__detail__item .project__detail-bottom .project__detail__card .card__img img {
+    width: 100%;
+    height: 335px;
+  }
+}
+@media (max-width: 575.98px) {
+  #project__detail .project__detail__content {
+    margin-top: 160px;
+  }
+  #project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action a {
+    padding: 9px 10px;
   }
 }
 #contact .contact__content {
@@ -1392,7 +1652,25 @@ a {
   width: 100%;
 }
 
+@media (max-width: 1599.98px) {
+  #contact .contact__content {
+    margin-top: 300px;
+  }
+}
+@media (max-width: 1399.98px) {
+  #contact .contact__content {
+    margin-top: 280px;
+  }
+}
+@media (max-width: 1199.98px) {
+  #contact .contact__content {
+    margin-top: 240px;
+  }
+}
 @media (max-width: 767.98px) {
+  #contact .contact__content {
+    margin-top: 220px;
+  }
   #contact .contact__content .contact__item .contact__text .contact__title .title {
     text-align: center;
   }
@@ -1405,6 +1683,11 @@ a {
   }
   #contact .contact__content .contact__item .contact__image img {
     width: 100%;
+  }
+}
+@media (max-width: 575.98px) {
+  #contact .contact__content {
+    margin-top: 160px;
   }
 }
 

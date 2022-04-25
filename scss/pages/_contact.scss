@@ -71,18 +71,42 @@
     }
 }
 
-// `xs` returns only a ruleset and no media query
-// ... { ... }
+@media (max-width: 1599.98px) {
+    #contact {
+        .contact__content {
+            margin-top: 300px;
+        }
+    }
+}
 
-// `sm` applies to x-small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {
-    
+// `xxl` applies to x-large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+    #contact {
+        .contact__content {
+            margin-top: 280px;
+        }
+    }
+}
+
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    #contact {
+        .contact__content {
+            margin-top: 240px;
+        }
+    }
+}
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+
 }
 
 // `md` applies to small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
     #contact {
         .contact__content {
+            margin-top: 220px;
             .contact__item {
                 .contact__text {
                     .contact__title {
@@ -109,21 +133,11 @@
     }
 }
 
-// `lg` applies to medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) {
-
-}
-
-// `xl` applies to large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) {
-
-}
-
-// `xxl` applies to x-large devices (large desktops, less than 1400px)
-@media (max-width: 1399.98px) {
-
-}
-
-@media (max-width: 1599.98px) {
-
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    #contact {
+        .contact__content {
+            margin-top: 160px;
+        }
+    }
 }
