@@ -661,6 +661,9 @@ a {
   }
 }
 @media (max-width: 991.98px) {
+  #home .slider {
+    height: 400px;
+  }
   #home #project .project__header {
     display: block;
   }
@@ -692,6 +695,9 @@ a {
   #home #project .project__slideshow .project__content .content__description .description__infor .project__btn.responsive {
     display: block;
     width: fit-content;
+  }
+  #home #ss {
+    margin-top: 80px;
   }
   #home #ss .ss__content {
     margin-bottom: 80px;
