@@ -72,3 +72,30 @@
         }
     }
 }
+
+#common__header {
+    #common__banner { 
+        position: relative;
+        .banner-text {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            .banner__icon {
+                width: 32px;
+                height: 32px;
+                margin-right: 16px;
+            }
+            .banner__hotline{
+                margin: 0 16px 0 0;
+                color: $color-primary;
+                font-weight: 700;
+                font-size: 32px;
+            }
+            .banner__note{
+                margin: 0;
+                font-weight: 600;
+                font-size: 14px;
+            }
+        }
+    }
+}

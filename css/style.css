@@ -63,6 +63,31 @@
   display: flex;
 }
 
+#common__header #common__banner {
+  position: relative;
+}
+#common__header #common__banner .banner-text {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+#common__header #common__banner .banner-text .banner__icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 16px;
+}
+#common__header #common__banner .banner-text .banner__hotline {
+  margin: 0 16px 0 0;
+  color: #ED1C24;
+  font-weight: 700;
+  font-size: 32px;
+}
+#common__header #common__banner .banner-text .banner__note {
+  margin: 0;
+  font-weight: 600;
+  font-size: 14px;
+}
+
 html {
   margin: 0;
   padding: 0;
