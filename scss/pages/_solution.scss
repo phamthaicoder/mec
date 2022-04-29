@@ -33,6 +33,8 @@
                         }
                     }
                     .solution__action {
+                        background-color: $color-gray-ultra-light;
+                        padding: 24px 0;
                         margin-top: 88px;
                         text-align: center;
                         .text {
@@ -43,6 +45,7 @@
                             font-size: 32px;
                             font-weight: 600;
                             color: $color-primary;
+                            margin: 0;
                         }
                     }
                 }
@@ -178,6 +181,14 @@
     #solution {
         .solution__content {
             .solution__item {
+                .solution-left {
+                    .solution__text {
+                        .solution__action {
+                            margin-top: 40px;
+                        }
+                    }
+                }
+    
                 .solution-bottom {
                     margin-bottom: 80px;
                     .solution__card__item {
