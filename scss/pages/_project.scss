@@ -1,6 +1,6 @@
 #project {
     .project__content {
-        margin-top: 380px;
+        margin-top: 290px;
         .project__title {
             text-align: center;
             p {
@@ -16,8 +16,8 @@
                 margin-bottom: 80px;
                 .card__img {
                     img {
-                        width: 362px;
-                        height: 362px;
+                        width: 400px;
+                        height: 400px;
                     }
                 }
                 .card__body {
@@ -93,7 +93,7 @@
 @media (max-width: 1599.98px) {
     #project {
         .project__content {
-            margin-top: 300px;
+            margin-top: 270px;
         }
     }
 }
@@ -102,13 +102,13 @@
 @media (max-width: 1399.98px) {
     #project {
         .project__content {
-            margin-top: 280px;
+            margin-top: 250px;
             .project__item {
                 .project__card {
                     .card__img {
                         img {
-                            width: 300px;
-                            height: 300px;
+                            width: 362px;
+                            height: 362px;
                         }
                     }
                 }
@@ -121,21 +121,35 @@
 @media (max-width: 1199.98px) {
     #project {
         .project__content {
-            margin-top: 240px;
+            margin-top: 230px;
+            .project__item {
+                .project__card {
+                    .card__img {
+                        img {
+                            width: 330px;
+                            height: 330px;
+                        }
+                    }
+                }
+            }
         }
     }
 }
 
 // `lg` applies to medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
-
+    #project {
+        .project__content {
+            margin-top: 210px;
+        }
+    }
 }
 
 // `md` applies to small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
     #project {
         .project__content {
-            margin-top: 220px;
+            margin-top: 190px;
         }
     }
 }
@@ -144,7 +158,7 @@
 @media (max-width: 575.98px) {
     #project {
         .project__content {
-            margin-top: 160px;
+            margin-top: 170px;
             .project__item {
                 .project__card {
                     .card__img {

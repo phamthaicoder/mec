@@ -1,6 +1,6 @@
 #contact {
     .contact__content {
-        margin-top: 380px;
+        margin-top: 290px;
         .contact__item {
             margin-bottom: 120px;
             .contact__text {
@@ -74,7 +74,7 @@
 @media (max-width: 1599.98px) {
     #contact {
         .contact__content {
-            margin-top: 300px;
+            margin-top: 270px;
         }
     }
 }
@@ -83,7 +83,7 @@
 @media (max-width: 1399.98px) {
     #contact {
         .contact__content {
-            margin-top: 280px;
+            margin-top: 250px;
         }
     }
 }
@@ -92,21 +92,25 @@
 @media (max-width: 1199.98px) {
     #contact {
         .contact__content {
-            margin-top: 240px;
+            margin-top: 230px;
         }
     }
 }
 
 // `lg` applies to medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
-
+    #contact {
+        .contact__content {
+            margin-top: 210px;
+        }
+    }
 }
 
 // `md` applies to small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
     #contact {
         .contact__content {
-            margin-top: 220px;
+            margin-top: 190px;
             .contact__item {
                 .contact__text {
                     .contact__title {
@@ -137,7 +141,7 @@
 @media (max-width: 575.98px) {
     #contact {
         .contact__content {
-            margin-top: 160px;
+            margin-top: 170px;
         }
     }
 }

@@ -758,7 +758,7 @@ a {
   }
 }
 #about .about__content {
-  margin-top: 380px;
+  margin-top: 290px;
 }
 #about .about__content .about__item {
   margin-bottom: 120px;
@@ -839,20 +839,23 @@ a {
 
 @media (max-width: 1599.98px) {
   #about .about__content {
-    margin-top: 300px;
+    margin-top: 270px;
   }
 }
 @media (max-width: 1399.98px) {
   #about .about__content {
-    margin-top: 280px;
+    margin-top: 250px;
   }
 }
 @media (max-width: 1199.98px) {
   #about .about__content {
-    margin-top: 240px;
+    margin-top: 230px;
   }
 }
 @media (max-width: 991.98px) {
+  #about .about__content {
+    margin-top: 210px;
+  }
   #about .about__content .about__item {
     margin-bottom: 80px;
   }
@@ -876,7 +879,7 @@ a {
 }
 @media (max-width: 767.98px) {
   #about .about__content {
-    margin-top: 220px;
+    margin-top: 190px;
   }
   #about .about__item .about__image img {
     width: 100%;
@@ -885,11 +888,11 @@ a {
 }
 @media (max-width: 575.98px) {
   #about .about__content {
-    margin-top: 160px;
+    margin-top: 170px;
   }
 }
 #solution .solution__content {
-  margin-top: 380px;
+  margin-top: 290px;
 }
 #solution .solution__content .solution__item .solution-left {
   margin-bottom: 64px;
@@ -1030,20 +1033,23 @@ a {
 
 @media (max-width: 1599.98px) {
   #solution .solution__content {
-    margin-top: 300px;
+    margin-top: 270px;
   }
 }
 @media (max-width: 1399.98px) {
   #solution .solution__content {
-    margin-top: 280px;
+    margin-top: 250px;
   }
 }
 @media (max-width: 1199.98px) {
   #solution .solution__content {
-    margin-top: 240px;
+    margin-top: 230px;
   }
 }
 @media (max-width: 991.98px) {
+  #solution .solution__content {
+    margin-top: 210px;
+  }
   #solution .solution__content .solution__item .solution-left .solution__text .solution__action {
     margin-top: 40px;
   }
@@ -1083,7 +1089,7 @@ a {
 }
 @media (max-width: 767.98px) {
   #solution .solution__content {
-    margin-top: 220px;
+    margin-top: 190px;
   }
   #solution .solution__content .solution__item .solution-left .solution__text .thumbnail img {
     width: 100%;
@@ -1092,7 +1098,7 @@ a {
 }
 @media (max-width: 575.98px) {
   #solution .solution__content {
-    margin-top: 160px;
+    margin-top: 170px;
   }
   #solution .solution__content .solution__item .solution-bottom {
     margin-bottom: 80px;
@@ -1118,7 +1124,7 @@ a {
   }
 }
 #service .service__content {
-  margin-top: 380px;
+  margin-top: 290px;
 }
 #service .service__content .service__item .service-left {
   margin-bottom: 64px;
@@ -1256,20 +1262,23 @@ a {
 
 @media (max-width: 1599.98px) {
   #service .service__content {
-    margin-top: 300px;
+    margin-top: 270px;
   }
 }
 @media (max-width: 1399.98px) {
   #service .service__content {
-    margin-top: 280px;
+    margin-top: 250px;
   }
 }
 @media (max-width: 1199.98px) {
   #service .service__content {
-    margin-top: 240px;
+    margin-top: 230px;
   }
 }
 @media (max-width: 991.98px) {
+  #service .service__content {
+    margin-top: 210px;
+  }
   #service .service__content .service__item .service-bottom {
     margin-bottom: 80px;
   }
@@ -1306,7 +1315,7 @@ a {
 }
 @media (max-width: 767.98px) {
   #service .service__content {
-    margin-top: 220px;
+    margin-top: 190px;
   }
   #service .service__content .service__item .service-left .service__text .thumbnail img {
     width: 100%;
@@ -1315,7 +1324,7 @@ a {
 }
 @media (max-width: 575.98px) {
   #service .service__content {
-    margin-top: 160px;
+    margin-top: 170px;
   }
   #service .service__content .service__item .service-bottom {
     margin-bottom: 80px;
@@ -1341,7 +1350,7 @@ a {
   }
 }
 #project .project__content {
-  margin-top: 380px;
+  margin-top: 290px;
 }
 #project .project__content .project__title {
   text-align: center;
@@ -1357,8 +1366,8 @@ a {
   margin-bottom: 80px;
 }
 #project .project__content .project__item .project__card .card__img img {
-  width: 362px;
-  height: 362px;
+  width: 400px;
+  height: 400px;
 }
 #project .project__content .project__item .project__card .card__body .card__name {
   margin: 24px 0 12px 0;
@@ -1422,31 +1431,40 @@ a {
 
 @media (max-width: 1599.98px) {
   #project .project__content {
-    margin-top: 300px;
+    margin-top: 270px;
   }
 }
 @media (max-width: 1399.98px) {
   #project .project__content {
-    margin-top: 280px;
+    margin-top: 250px;
   }
   #project .project__content .project__item .project__card .card__img img {
-    width: 300px;
-    height: 300px;
+    width: 362px;
+    height: 362px;
   }
 }
 @media (max-width: 1199.98px) {
   #project .project__content {
-    margin-top: 240px;
+    margin-top: 230px;
+  }
+  #project .project__content .project__item .project__card .card__img img {
+    width: 330px;
+    height: 330px;
+  }
+}
+@media (max-width: 991.98px) {
+  #project .project__content {
+    margin-top: 210px;
   }
 }
 @media (max-width: 767.98px) {
   #project .project__content {
-    margin-top: 220px;
+    margin-top: 190px;
   }
 }
 @media (max-width: 575.98px) {
   #project .project__content {
-    margin-top: 160px;
+    margin-top: 170px;
   }
   #project .project__content .project__item .project__card .card__img img {
     width: 335px;
@@ -1454,7 +1472,7 @@ a {
   }
 }
 #project__detail .project__detail__content {
-  margin-top: 380px;
+  margin-top: 290px;
 }
 #project__detail .project__detail__content .project__detail__item .project__detail-left {
   margin-bottom: 64px;
@@ -1542,6 +1560,9 @@ a {
   height: 16px;
   margin-right: 9.5px;
 }
+#project__detail .project__detail__content .project__detail__item .project__detail-bottom {
+  margin-bottom: 128px;
+}
 #project__detail .project__detail__content .project__detail__item .project__detail-bottom .title {
   font-size: 24px;
   font-weight: 400;
@@ -1579,20 +1600,23 @@ a {
 
 @media (max-width: 1599.98px) {
   #project__detail .project__detail__content {
-    margin-top: 300px;
+    margin-top: 270px;
   }
 }
 @media (max-width: 1399.98px) {
   #project__detail .project__detail__content {
-    margin-top: 280px;
+    margin-top: 250px;
   }
 }
 @media (max-width: 1199.98px) {
   #project__detail .project__detail__content {
-    margin-top: 240px;
+    margin-top: 230px;
   }
 }
 @media (max-width: 991.98px) {
+  #project__detail .project__detail__content {
+    margin-top: 210px;
+  }
   #project__detail .project__detail__content .project__detail__item .project__detail-left {
     margin-bottom: 64px;
   }
@@ -1627,7 +1651,7 @@ a {
 }
 @media (max-width: 767.98px) {
   #project__detail .project__detail__content {
-    margin-top: 220px;
+    margin-top: 190px;
   }
   #project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .thumbnail img {
     width: 100%;
@@ -1640,14 +1664,14 @@ a {
 }
 @media (max-width: 575.98px) {
   #project__detail .project__detail__content {
-    margin-top: 160px;
+    margin-top: 170px;
   }
   #project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action a {
     padding: 9px 10px;
   }
 }
 #contact .contact__content {
-  margin-top: 380px;
+  margin-top: 290px;
 }
 #contact .contact__content .contact__item {
   margin-bottom: 120px;
@@ -1714,22 +1738,27 @@ a {
 
 @media (max-width: 1599.98px) {
   #contact .contact__content {
-    margin-top: 300px;
+    margin-top: 270px;
   }
 }
 @media (max-width: 1399.98px) {
   #contact .contact__content {
-    margin-top: 280px;
+    margin-top: 250px;
   }
 }
 @media (max-width: 1199.98px) {
   #contact .contact__content {
-    margin-top: 240px;
+    margin-top: 230px;
+  }
+}
+@media (max-width: 991.98px) {
+  #contact .contact__content {
+    margin-top: 210px;
   }
 }
 @media (max-width: 767.98px) {
   #contact .contact__content {
-    margin-top: 220px;
+    margin-top: 190px;
   }
   #contact .contact__content .contact__item .contact__text .contact__title .title {
     text-align: center;
@@ -1747,7 +1776,7 @@ a {
 }
 @media (max-width: 575.98px) {
   #contact .contact__content {
-    margin-top: 160px;
+    margin-top: 170px;
   }
 }
 
