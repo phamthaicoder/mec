@@ -5,7 +5,7 @@ const aboutHeaderHeight = document.querySelector('#common__header').offsetHeight
 window.onscroll = function() {
     document.querySelector('.common__banner').style.display = 'none' 
     if (window.scrollY <= 100) {
-        document.querySelector('.common__banner').style.display = 'block'
+        document.querySelector('.common__banner').style.display = 'flex'
     }
 }
 

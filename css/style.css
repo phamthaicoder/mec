@@ -64,7 +64,9 @@
 }
 
 #common__header #common__banner {
-  position: relative;
+  background: url(../../img/general/banner-layout.png) center/cover no-repeat;
+  height: 120px;
+  display: flex;
 }
 #common__header #common__banner .banner-text {
   position: absolute;
@@ -88,6 +90,11 @@
   font-size: 14px;
 }
 
+@media (max-width: 575.98px) {
+  #common__header #common__banner .banner-text {
+    flex-direction: column;
+  }
+}
 html {
   margin: 0;
   padding: 0;
@@ -1383,7 +1390,7 @@ a {
 #project .project__content .project__title p {
   font-size: 32px;
   font-weight: 600;
-  margin: 64px 0px;
+  margin: 0 0 64px 0;
 }
 #project .project__content .project__item .project__card {
   display: flex;
