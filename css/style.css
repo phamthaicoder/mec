@@ -614,6 +614,9 @@ a {
   color: #0C1323;
   margin-bottom: 12px;
 }
+#home #project .project__slideshow .project__content .content__description .description__infor .infor__name .info__title a {
+  color: inherit;
+}
 #home #project .project__slideshow .project__content .content__description .description__infor .infor__name .info__description {
   font-size: 14px;
   font-weight: 400;
