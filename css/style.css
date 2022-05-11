@@ -63,6 +63,10 @@
   display: flex;
 }
 
+.description {
+  text-transform: uppercase;
+}
+
 #common__header #common__banner {
   background: url(../../img/general/banner-layout.png) center/cover no-repeat;
   height: 120px;
@@ -913,17 +917,9 @@ a {
   }
 }
 @media (max-width: 767.98px) {
-  #about .about__content {
-    margin-top: 190px;
-  }
   #about .about__item .about__image img {
     width: 100%;
     height: 320px;
-  }
-}
-@media (max-width: 575.98px) {
-  #about .about__content {
-    margin-top: 170px;
   }
 }
 #solution .solution__content {
@@ -1123,18 +1119,12 @@ a {
   }
 }
 @media (max-width: 767.98px) {
-  #solution .solution__content {
-    margin-top: 190px;
-  }
   #solution .solution__content .solution__item .solution-left .solution__text .thumbnail img {
     width: 100%;
     height: 230px;
   }
 }
 @media (max-width: 575.98px) {
-  #solution .solution__content {
-    margin-top: 170px;
-  }
   #solution .solution__content .solution__item .solution-bottom {
     margin-bottom: 80px;
   }
@@ -1349,18 +1339,12 @@ a {
   }
 }
 @media (max-width: 767.98px) {
-  #service .service__content {
-    margin-top: 190px;
-  }
   #service .service__content .service__item .service-left .service__text .thumbnail img {
     width: 100%;
     height: 230px;
   }
 }
 @media (max-width: 575.98px) {
-  #service .service__content {
-    margin-top: 170px;
-  }
   #service .service__content .service__item .service-bottom {
     margin-bottom: 80px;
   }
@@ -1492,15 +1476,7 @@ a {
     margin-top: 210px;
   }
 }
-@media (max-width: 767.98px) {
-  #project .project__content {
-    margin-top: 190px;
-  }
-}
 @media (max-width: 575.98px) {
-  #project .project__content {
-    margin-top: 170px;
-  }
   #project .project__content .project__item .project__card .card__img img {
     width: 335px;
     height: 335px;
@@ -1685,9 +1661,6 @@ a {
   }
 }
 @media (max-width: 767.98px) {
-  #project__detail .project__detail__content {
-    margin-top: 190px;
-  }
   #project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .thumbnail img {
     width: 100%;
     height: 230px;
@@ -1698,9 +1671,6 @@ a {
   }
 }
 @media (max-width: 575.98px) {
-  #project__detail .project__detail__content {
-    margin-top: 170px;
-  }
   #project__detail .project__detail__content .project__detail__item .project__detail-left .project__detail__text .project__detail__action a {
     padding: 9px 10px;
   }
@@ -1792,9 +1762,6 @@ a {
   }
 }
 @media (max-width: 767.98px) {
-  #contact .contact__content {
-    margin-top: 190px;
-  }
   #contact .contact__content .contact__item .contact__text .contact__title .title {
     text-align: center;
   }
@@ -1807,11 +1774,6 @@ a {
   }
   #contact .contact__content .contact__item .contact__image img {
     width: 100%;
-  }
-}
-@media (max-width: 575.98px) {
-  #contact .contact__content {
-    margin-top: 170px;
   }
 }
 
