@@ -84,19 +84,28 @@
         display: flex;
         // position: relative;
         .banner-text {
+            > div {
+                margin-right: 48px;
+            }
             position: absolute;
             display: flex;
             align-items: center;
+            p.banner-address {
+                margin: 0;
+                font-weight: 600;
+                font-size: 14px;
+            }
+
             .banner__icon {
-                width: 32px;
-                height: 32px;
+                width: 24px;
+                height: 24px;
                 margin-right: 16px;
             }
             .banner__hotline{
                 margin: 0 16px 0 0;
                 color: $color-primary;
                 font-weight: 700;
-                font-size: 32px;
+                font-size: 28px;
             }
             .banner__note{
                 margin: 0;
@@ -119,7 +128,37 @@
 
 // `lg` applies to medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
-
+    #common__header {
+        #common__banner { 
+            background: url(../../img/general/banner-layout-responsive.png) center / cover no-repeat;
+            height: 80px;
+            .banner-text {
+                > div {
+                    margin-right: 0px;
+                }
+                p.banner-address {
+                    margin: 0;
+                    font-weight: 600;
+                    font-size: 10px;
+                }
+    
+                .banner__icon {
+                    display: none;
+                }
+                .banner__hotline{
+                    margin: 0 16px 0 0;
+                    color: $color-primary;
+                    font-weight: 600;
+                    font-size: 14px;
+                }
+                .banner__note{
+                    margin: 0;
+                    font-weight: 600;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
 }
 
 
@@ -130,13 +169,7 @@
 
 // `sm` applies to x-small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
-    #common__header {
-        #common__banner { 
-            .banner-text {
-                flex-direction: column;
-            }
-        }
-    }
+
 }
 
 // `xs` returns only a ruleset and no media query
